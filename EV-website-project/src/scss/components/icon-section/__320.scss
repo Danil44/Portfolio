@@ -1,0 +1,36 @@
+.l-icon-section--list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 142px;
+  padding-bottom: 40.75px;
+  align-items: center;
+}
+
+.c-icon__name {
+  font-family: $primary-font-stack;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: $secondary-dark-color;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c-icon-section__item {
+  position: relative;
+  @media (max-width: 767px) {
+    &:not(:last-child) {
+      padding-bottom: 100px;
+    }
+  }
+}
+
+.c-feauter-icon {
+  fill: $icon-section-fill;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translate(35px,-72px);
+  cursor: pointer;
+}

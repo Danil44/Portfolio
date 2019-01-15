@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/filter-form.css" />
+    <link rel="stylesheet" href="css/products.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form js-form">
+        <section class="filter-section">
+          <h2 class="filter__title">Screen size</h2>
+          <ul class="filter__list">
+            <li class="filter__item">
+              <label
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="size"
+                  value="13"
+                />
+                <span class="check"> 13"</span></label
+              >
+            </li>
+            <li class="filter__item">
+              <label
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="size"
+                  value="15"
+                />
+                <span class="check">15"</span></label
+              >
+            </li>
+            <li class="filter__item">
+              <label
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="size"
+                  value="17"
+                />
+                <span class="check">17"</span></label
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="filter-section">
+          <h2 class="filter__title">Color</h2>
+          <ul class="filter__list">
+            <li class="filter__item">
+              <label
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="color"
+                  value="white"
+                />
+                <span class="check">white</span></label
+              >
+            </li>
+            <li class="filter__item">
+              <label
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="color"
+                  value="gray"
+                />
+                <span class="check">gray</span></label
+              >
+            </li>
+            <li class="filter__item">
+              <label
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="color"
+                  value="black"
+                />
+                <span class="check">black</span></label
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="filter-section">
+          <h2 class="filter__title">Release date</h2>
+          <ul class="filter__list">
+            <li class="filter__item">
+              <label
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="release_date"
+                  value="2015"
+                />
+                <span class="check">2015</span></label
+              >
+            </li>
+            <li class="filter__item">
+              <label
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="release_date"
+                  value="2016"
+                />
+                <span class="check">2016</span></label
+              >
+            </li>
+            <li class="filter__item">
+              <label
+                ><input
+                  type="checkbox"
+                  class="checkbox"
+                  name="release_date"
+                  value="2017"
+                />
+                <span class="check">2017</span></label
+              >
+            </li>
+          </ul>
+        </section>
+        <button class="filter__btn" type="submit">Filter</button>
+        <button class="filter__btn" type="reset">Clear</button>
+      </form>
+      <div class="products-container"><ul class="products__list"></ul></div>
+    </div>
+    <template id="product-item">
+      {{#each this}}
+      <li class="product__item">
+        <a href="#">
+          <img src="{{img}}" alt="{{name}}" class="product__picture" />
+          <h2 class="product__name">{{ name }}</h2>
+          <p class="product__size product__text">
+            Size: <span class="product__param">{{ size }}"</span>
+          </p>
+          <p class="product__color product__text">
+            Color: <span class="product__param">{{ color }}</span>
+          </p>
+          <p class="product__release-date product__text">
+            Release date: <span class="product__param">{{ release_date }}</span>
+          </p>
+          <p class="product__desc product__text">{{ descr }}</p>
+          <p class="product__price product__text">Price: {{ price }} UAH</p>
+        </a>
+      </li>
+      {{/each}}
+    </template>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

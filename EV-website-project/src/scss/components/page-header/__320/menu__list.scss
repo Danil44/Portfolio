@@ -1,0 +1,16 @@
+@media (max-width: 1199px) {
+  .l-menu__list {
+    background-color: $secondary-dark-color;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .menu__list--open {
+    height: auto;
+  }
+}

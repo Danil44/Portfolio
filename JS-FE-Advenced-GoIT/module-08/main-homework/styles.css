@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: rgb(218, 211, 190);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.image-gallery {
+  width: 774px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.preview {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.selected {
+  transition: 0.2s;
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.not-selected {
+  margin-right: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.not-selected:last-child {
+  margin-right: 0;
+}
+
+.not-selected::after {
+  content: "";
+  display: inline-block;
+  width: 127px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgb(60, 60, 65, 0.5);
+  transition: 0.3s;
+}
+
+.not-selected:hover::after {
+  display: none;
+}

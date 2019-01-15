@@ -1,0 +1,16 @@
+@media (min-width: 1200px) {
+  .c-submenu__item {
+    padding-bottom: 16px;
+    width: 170px;
+    margin-right: auto;
+    margin-left: auto;
+
+    &:first-child {
+      padding-top: 19px;
+    }
+
+    &:last-child {
+      padding-bottom: 26px;
+    }
+  }
+}

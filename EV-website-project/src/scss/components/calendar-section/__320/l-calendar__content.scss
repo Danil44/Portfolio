@@ -1,0 +1,12 @@
+.c-calendar__content:not(:last-of-type){
+  margin-bottom: 35.75px;
+}
+.c-calendar__content:last-of-type::after {
+  content: "";
+  display: block;
+  background-color: $secondary-white-color;
+  opacity: 0.1;
+  height: 1px;
+  width: 290px;
+  margin: 35.75px auto 62px;
+}

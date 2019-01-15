@@ -1,0 +1,39 @@
+.container {
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Playball', cursive;
+    color: #fed136;
+    font-size: 26px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.menu_link {
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.2s linear;
+}
+
+.menu_link:hover {
+    color: #fed136;
+    transition: 0.2s linear;
+}

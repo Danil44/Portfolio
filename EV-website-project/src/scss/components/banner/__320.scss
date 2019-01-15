@@ -1,0 +1,90 @@
+.c-banner--background {
+  background-image: url("../img/banner-bgrnd_772x580.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    background-image: url("../img/banner-bgrnd_772x580@x2.jpg");
+  }
+}
+
+.l-banner__box {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  height: 584px;
+  flex-wrap: wrap;
+  @media(max-width: 1199px) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.l-banner-content {
+  text-align: center;
+  padding-top: 144px;
+}
+
+.c-banner__logo {
+  font-family: $logo-font-stack;
+  font-weight: bold;
+  font-size: 50px;
+  color: $primary-white-color;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 23px;
+}
+
+.c-banner__text {
+  font-family: $primary-font-stack;
+  color: $primary-white-color;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 37px;
+}
+
+.c-banner__btn {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  width: 234px;
+  padding-left: 5px;
+  position: relative;
+  height: 48px;
+  font-family: $primary-font-stack;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $primary-white-color;
+  cursor: pointer;
+  background-color: $banner-button-color;
+  border: 3px solid $banner-button-color;
+  letter-spacing: 1.5px;
+  transition: 0.2s linear;
+  @media (max-width: 1199px) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &::after {
+    content: '';
+    display: inline-block;
+    background-image: url("../img/right-arrow-white.svg");
+    background-repeat: no-repeat;
+    transform: translate(-65%, 82%);
+    position: absolute;
+    width: 37px;
+    height: 18px;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    z-index: 1;
+  }
+}

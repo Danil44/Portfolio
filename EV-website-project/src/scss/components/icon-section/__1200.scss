@@ -1,0 +1,17 @@
+@media (min-width: 1200px) {
+  .c-icon-section-item:nth-child(n + 3) {
+    padding-top: 5px;
+  }
+
+  .c-icon-section__item:nth-child(-n+2) {
+    border-bottom: none;
+  }
+
+  .c-icon-section__item:not(:last-child) {
+    border-right: 1px solid rgb(241, 241, 241);
+  }
+
+  .c-icon-section-item__svg {
+    margin-bottom: 25px;
+  }
+}

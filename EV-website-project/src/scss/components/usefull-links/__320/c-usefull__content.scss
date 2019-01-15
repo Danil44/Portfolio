@@ -1,0 +1,27 @@
+.c-usefull__content:not(:last-of-type) {
+  margin-bottom: 35.75px;
+}
+.c-usefull__content:last-of-type::after {
+  content: "";
+  display: block;
+  background-color: $secondary-white-color;
+  opacity: 0.1;
+  height: 2px;
+  width: 290px;
+  margin: 35.75px auto 62px;
+}
+
+.c-usefull__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .c-usefull__picture {
+    width: 215px;
+    margin-right: 14px;
+  }
+  .l-usefull__info {
+    width: 260px;
+  }
+}

@@ -1,0 +1,56 @@
+.lead {
+  font-family: "Kaushan Script";
+  text-align: center;
+}
+
+.banner__lead {
+  font-size: 72px;
+  color: rgba(255, 255, 255, 255);
+  margin-bottom: 50px;
+}
+
+.banner {
+  width: 802px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner__title {
+  font-size: 143px;
+  color: #ffffff;
+  line-height: 140px;
+  margin-bottom: 124px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  padding-bottom: 230px;
+}
+
+.btn {
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: bold;
+  outline: none;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  padding: 9px 28px;
+  cursor: pointer;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.btn--hover:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  border-color: #f38181;
+}

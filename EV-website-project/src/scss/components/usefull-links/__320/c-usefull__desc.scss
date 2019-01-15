@@ -1,0 +1,19 @@
+.c-usefull__desc {
+  font-size: 15px;
+  line-height: 29px;
+  color: $calendar-desc-color;
+  font-family: $primary-font-stack;
+  margin-bottom: 25px;
+}
+
+.c-organizer-link {
+  color: $link-color;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.c-services-links {
+  @extend .c-usefull__desc;
+  font-weight: 600;
+  border-bottom: 1px solid $primary-dark-color;
+}

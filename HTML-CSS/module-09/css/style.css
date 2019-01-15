@@ -1,0 +1,362 @@
+.wrapper {
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 65px;
+}
+
+.header {
+    padding-top: 20px;
+}
+
+
+.btn {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    background: none;
+    padding: 5px 18px;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    margin-bottom: 118px;
+    padding-right: 11px;
+}
+
+.sign_up {
+    border-color: white;
+    padding: 5px 15px;
+}
+
+.btns-group-header {
+    margin-right: 27px;
+}
+
+.logo {
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 29px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sub-btn {
+    background-color: #ff4e50;
+    padding: 8px 44px;
+    margin-bottom: 140px;
+}
+
+.section_title {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    padding-right: 7px;
+}
+
+.partner_picture {
+    border-radius: 50%;
+}
+
+.partner-photo {
+    position: relative;
+    width: 126px;
+    height: 119px;
+    margin: 0 auto 21px auto;
+}
+
+.partner-photo::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-image: url('../img/tv.png');
+    background-position: center;
+    background-color: #ff4e50;
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+}
+
+.bottle_icon::after {
+    position: absolute;
+    background-color: #ffa507;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    right: 2%;
+    top: 75%;
+    background-image: url('../img/bottle.png');
+    background-position: center;
+    background-size: 15px 19px;
+}
+
+.tea_icon::after {
+    position: absolute;
+    background-color: #1cd7ad;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    right: 4%;
+    top: 75%;
+    background-image: url('../img/tea.png');
+    background-position: 5px 4px;
+    background-size: 18px 18px;
+}
+
+
+.message_icon::after {
+    position: absolute;
+    background-color: #4e73db;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    right: 4%;
+    top: 71%;
+    background-image: url('../img/message.png');
+    background-position: 5px 6px;
+}
+
+
+.partner_name {
+    margin-bottom: 11px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.partner_info {
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.heather {
+    margin-top: 14px;
+}
+
+.maria {
+    height: 124px;
+    margin-bottom: 16px;
+}
+
+.section_btn {
+    color: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #ff4e50;
+    border-radius: 40px;
+    padding: 7px 69px;
+    background-color: transparent;
+    margin-bottom: 68px;
+    margin-right: 3px;
+}
+
+.section_btn:active {
+    cursor: pointer;
+    transition: 40ms linear;
+    background-color: #ff4e50;
+    color: #ffffff
+}
+
+@media (min-width: 768px) {
+    .section_title {
+        padding-left: 2px;
+        margin-bottom: 34px;
+        padding-top: 3px;
+    }
+
+    .partner {
+        width: 232px;
+    }
+}
+
+
+@media (min-width:768px) {
+    .header {
+        margin-bottom: 144px;
+        padding-top: 39px;
+    }
+
+    .btn,
+    .logo {
+        margin-bottom: 0;
+    }
+
+    .logo {
+        padding-top: 4px;
+        padding-left: 2px;
+        cursor: pointer;
+    }
+
+    .btns-group-header {
+        margin-right: -8px;
+    }
+
+    .sub-btn {
+        margin-bottom: 230px;
+    }
+
+    .title {
+        font-size: 50px;
+        margin-right: 10px;
+        margin-bottom: 23px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        margin-bottom: 29px;
+        margin-left: -4px;
+    }
+
+    .sub-btn {
+        padding: 8px 18px;
+        margin-bottom: 234px;
+    }
+
+    .partner-photo {
+        height: 124px;
+    }
+
+    .partner_name {
+        margin-bottom: 11px;
+    }
+
+    .lucas {
+        margin-top: 15px;
+        margin-bottom: 18px;
+    }
+
+    .maria {
+        margin-top: 14px;
+    }
+
+    .bradley {
+        margin-top: -2px;
+        margin-bottom: 15px;
+    }
+
+    .heather {
+        margin-top: -1px;
+        margin-bottom: 15px;
+    }
+
+    .tea_icon::after {
+        right: 1%;
+        top: 71%;
+    }
+
+    .message_icon::after {
+        top: 72%;
+        right: 1%;
+    }
+
+    .bottle_icon::after {
+        top: 72%;
+        right: 1%;
+    }
+
+    .section_btn {
+        padding: 9px 26px;
+        margin-bottom: 58px;
+        margin-right: 2px;
+    }
+}
+
+@media (min-width: 942px) {
+    .header {
+        margin-bottom: 143px;
+    }
+
+    .logo {
+        padding-left: 13px;
+    }
+
+    .btns-group-header {
+        margin-right: 45px;
+    }
+
+    .btn {
+        border-color: transparent;
+    }
+
+    .btn:hover {
+        border-color: #ffffff
+    }
+
+    .sub-btn:hover {
+        cursor: pointer;
+        transition: 0.2s linear;
+        background-color: transparent;
+        color: #ff4e50;
+        border-color: #ffffff
+    }
+
+    .title {
+        margin-right: 5px;
+    }
+
+    .partner_picture {
+        cursor: pointer;
+        transition: 0.2s linear;
+    }
+
+    .lucas {
+        margin-top: -4px;
+        margin-bottom: 18px;
+    }
+
+    .maria {
+        margin-top: -4px;
+    }
+
+    .partner_picture:hover {
+        transform: scale(1.05) translate(-2%, 2%)
+    }
+
+    .partner_info {
+        margin-bottom: 20px;
+    }
+
+    .section_btn {
+        padding: 9px 26px;
+        transition: 0.2s linear;
+    }
+
+    .section_btn:hover {
+        cursor: pointer;
+        transition: 0.2s linear;
+        background-color: #ff4e50;
+        color: #ffffff
+    }
+}

@@ -1,0 +1,35 @@
+@media (min-width: 1200px) {
+  .c-menu__link {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: $header-text-color;
+    opacity: 0.6;
+    transition: 0.2s linear;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:hover .c-submenu-list {
+      display: none;
+    }
+  }
+
+  .c-menu__link_desktop {
+    text-transform: none;
+    color: $entry-color;
+  }
+
+  
+  .c-menu__link_visiting {
+    color: $primary-dark-color;
+    font-weight: 800;
+    opacity: 0.8;
+  }
+
+  .c-menu__link_forum:hover {
+    color: $header-text-color;
+    opacity: 0.6;
+  }
+}

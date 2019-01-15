@@ -1,0 +1,29 @@
+.id-search-form {
+  padding: 20px;
+}
+.users-id-container {
+  max-height: 200px;
+}
+
+.id-search-form input {
+  margin-right: 12px;
+  padding: 4px;
+  outline: 0;
+  border: 0;
+  color: #263238;
+  font-size: 18px;
+  background-color: transparent;
+  border-bottom: 2px solid;
+  border-color: #00796b;
+}
+
+.invalid-form {
+  color: #ff4400;
+}
+.invalid-form ::placeholder {
+  color: #ff4400;
+}
+
+p {
+  font-size: 18px;
+}

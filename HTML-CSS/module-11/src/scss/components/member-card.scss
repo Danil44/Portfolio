@@ -1,0 +1,53 @@
+.member-card {
+  position: relative;
+}
+
+.member-card__name {
+  font-size: 14px;
+  color: $primary-dark-color;
+  font-family: $main-font-stack;
+  margin-bottom: -5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.member-card__ocupation {
+  font-size: 15px;
+  color: $text-color;
+  font-family: $text-font-stack;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.member-card__wrapper {
+  transition: 0.2s linear;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 21px;
+  height: 473px;
+
+  &--hover:hover {
+    transform: translate(-4%, -2%);
+    box-shadow: 15px 10px $box-shadow-color;
+    opacity: 1;
+  }
+
+  &--hover:hover .member-card__gradient--hover {
+    opacity: 1;
+  }
+
+  &--hover:hover .member-card__icons {
+    opacity: 1;
+  }
+}
+
+.member-card__gradient {
+  background-image: $linear-gradient-color;
+  width: 383px;
+  height: 473px;
+  top: 0%;
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s
+}

@@ -1,0 +1,25 @@
+@media (min-width:1199px) {
+  .c-usefull__content {
+    max-width: 790px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+
+    &::after {
+      content: "";
+      display: block;
+      background-color: $secondary-white-color;
+      opacity: 0.2;
+      height: 1px;
+      width: 925px;
+      margin: 35.75px auto 62px;
+    }
+  }
+
+  .c-usefull__content:last-of-type::after {
+    content: '';
+    margin: 0;
+    height: 0;
+    width: 0;
+  }
+}

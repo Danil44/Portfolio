@@ -1,0 +1,57 @@
+.container {
+    width: 1114px;
+    margin: auto;
+}
+
+.menu {
+    padding: 43px 0 110px;
+    font-family: 'Open Sans';
+}
+
+.navigation {
+    width: 1114px;
+}
+
+.logo {
+    float: left;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.logo::first-letter {
+    color: #1abc9c;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.nav-list {
+    float: right;
+    transition: 1s;
+}
+
+.nav-item {
+    float: left;
+    transition: 2s;
+}
+
+.nav-item {
+    margin-right: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-item-link {
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.nav-item:last-child {
+    margin-right: none;
+}
+
+.nav-item-link:hover {
+    color: #1abc9c;
+}

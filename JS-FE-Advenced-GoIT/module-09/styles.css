@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: rgb(218, 211, 190);
+}
+
+.timers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center
+}
+
+
+.js-time {
+  margin-bottom: 15px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 80px;
+  text-align: center;
+}
+
+
+.lap {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  list-style: none;
+}
+
+.btn {
+  display: inline;
+  text-transform: uppercase;
+  border: 0;
+  background-color: #212121;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 28px;
+  border-radius: 2px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 4px;
+}
+
+.active {
+  background-color: #2196f3;
+}

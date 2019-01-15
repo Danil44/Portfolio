@@ -1,0 +1,50 @@
+.member-card__icons {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-35%, -50%);
+  opacity: 0;
+}
+
+.icon-wrapper {
+  background-color: $icon-bg-color;
+  width: 56px;
+  height: 56px;
+  margin-right: 1px;
+  cursor: pointer;
+  transition: 0.2s linear;
+
+  &--hover:hover {
+    background-color: $icon-bg-color--hover;
+  }
+
+  &--hover:hover .icons--hover {
+    fill: $icon-color--hover;
+  }
+}
+
+.icons {
+  position: absolute;
+  top: 22%;
+  fill: $social-icon-color;
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+
+.facebook__icon {
+  left: 10%;
+}
+
+.twitter__icon {
+  left: 32%;
+  top: 26%;
+}
+
+.pinterest__icon {
+  left: 131px;
+}
+
+.instagram__icon {
+  left: 186px;
+}

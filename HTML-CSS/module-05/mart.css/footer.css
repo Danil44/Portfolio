@@ -1,0 +1,38 @@
+.wrapper-footer {
+    background-color: #323232;
+    
+}
+
+.footer {
+    padding: 38px 0 33px;
+    text-align: center;
+}
+
+.rights {
+    font-family: 'Open Sans';
+    color: #fefefe;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.copyright::before {
+    content: '\00A9';
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.copyright::after {
+    content: '\007C';
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.author {
+    color: #1abc9c;
+}
+
+.author:hover {
+    border-bottom: 1px solid #1abc9c;
+    transition: 0.2s
+}

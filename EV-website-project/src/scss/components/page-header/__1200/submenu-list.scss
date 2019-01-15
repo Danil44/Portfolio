@@ -1,0 +1,14 @@
+@media (min-width: 1200px) {
+  .l-submenu-list {
+    position: absolute;
+    width: 215px;
+    background-color: $primary-white-color;
+    top: 23px;
+    z-index: 1;
+    transform: translateX(-36%);
+    display: none;
+    -webkit-box-shadow: -1px 4px 15px 2px rgba(0,0,0,0.21);
+    -moz-box-shadow: -1px 4px 15px 2px rgba(0,0,0,0.21);
+    box-shadow: -1px 4px 15px 2px rgba(0,0,0,0.21);
+  }
+}

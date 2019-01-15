@@ -1,0 +1,112 @@
+.c-button__button-arrow {
+  width: 59px;
+  height: 50px;
+}
+
+.arrow {
+  content: '';
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 10px 17px;
+  width: 37px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 25px 30px;
+}
+
+.l-theme-list__button {
+  position: relative;
+  padding-left: 59px;
+  transition: 0.1s linear;
+  opacity: 1;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.c-button__button-name {
+  width: 300px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: $primary-font-stack;
+  font-size: 12px;
+}
+
+.c-position-arrow {
+  margin-left: 6px;
+  margin-top: 20px;
+  width: 34px;
+  height: 9px;
+}
+// начались модификаторы цвета
+
+.button__button-name_blue {
+  background: #f1f6fa;
+  color: #78b7ea;
+
+  &::before {
+    @extend .arrow;
+    background-image: url("../img/right-arrow-acva.svg");
+    background-color: #e4eef7;
+  }
+}
+
+.button__button-name_orange {
+  background: #fcf2f0;
+  color: #fe6c47;
+
+  &::before {
+    @extend .arrow;
+    background-image: url("../img/right-arrow-orange.svg");
+    background-color: #fbe6e1;
+  }
+}
+
+.button__button-name_light-blue {
+  background: #edf8fa;
+  color: #26c2cf;
+
+  &::before {
+    @extend .arrow;
+    background-image: url("../img/right-arrow-light-blue.svg");
+    background-color: #d9f1f3;
+  }
+}
+
+.button__button-name_purple {
+  background: #f7effc;
+  color: #ba64e9;
+
+  &::before {
+    @extend .arrow;
+    background-image: url("../img/right-arrow-purple.svg");
+    background-color: #f0e1f8;
+  }
+}
+
+.button__button-name_red {
+  background: #fcf0f0;
+  color: #fb4e50;
+
+  &::before {
+    @extend .arrow;
+    background-image: url("../img/right-arrow-red.svg");
+    background-color: #fbe2e5;
+  }
+}
+
+.button__button-name_green {
+  background: #edf8f2;
+  color: #18c665;
+
+  &::before {
+    @extend .arrow;
+    background-image: url("../img/right-arrow-green.svg");
+    background-color: #dbf3e5;
+  }
+}
+// закончились модификаторы цвета

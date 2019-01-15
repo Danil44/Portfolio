@@ -1,0 +1,9 @@
+@media (min-width:768px) {
+  .c-calendar__content {
+    width: 100%;
+  }
+
+  .c-calendar__content:last-of-type::after {
+    width: 720px;
+  }
+}

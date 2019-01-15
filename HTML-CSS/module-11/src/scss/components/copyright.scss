@@ -1,0 +1,23 @@
+.copyright {
+  margin-top: 24px;
+  font-family: $main-font-stack;
+  font-size: 14px;
+  font-weight: 400;
+  color: $primary-dark-color;
+
+  &--before::before {
+    content: '\00A9';
+    vertical-align: center;
+    margin-right: 4px;
+    color: $primary-dark-color;
+  }
+}
+
+.copyright__link {
+  color: $secondary-color;
+
+  &--hover:hover {
+    border-bottom: 1px solid $secondary-color;
+    padding-bottom: 3px;
+  }
+}

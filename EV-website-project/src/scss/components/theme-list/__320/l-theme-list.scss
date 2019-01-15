@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+  .l-theme {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 349px;
+  }
+}
+
+.c-theme-list__name {
+  font-family: $primary-font-stack;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: $theme-list__name;
+}
+
+.c-theme-list__text {
+  margin-top: 19px;
+  margin-left: 14px;
+}
+
+.l-theme-list__button {
+  height: 50px;
+  display: flex;
+  margin-bottom: 24px;
+  cursor: pointer;
+
+  &:active {
+    opacity: 0.7;
+  }
+
+  &:last-of-type {
+    padding-bottom: 77px;
+  }
+}

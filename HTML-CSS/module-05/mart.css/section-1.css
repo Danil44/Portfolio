@@ -1,0 +1,95 @@
+.wrapper-tours {
+    background-image: url(../img/Rectangle-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+}
+
+
+.tours {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -67%);
+    min-width: 1134px;
+}
+
+.left_bracket {
+    background-color: rgba(85, 166, 142, 0.651);
+    width: 104px;
+    height: 104px;
+    text-align: center;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    line-height: 104px;
+    font-size: 50px;
+    color: #ffffff;
+    transform: translateY(-39%);
+}
+
+.left_bracket:hover {
+    cursor: pointer;
+    background-color: rgb(85, 166, 142);
+    transition: 0.3s;
+}
+
+.right_bracket {
+    background-color: rgba(85, 166, 142, 0.651);
+    width: 104px;
+    height: 104px;
+    text-align: center;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    line-height: 104px;
+    font-size: 50px;
+    color: #ffffff;
+    transform: translateY(-39%);
+}
+
+.right_bracket:hover {
+    cursor: pointer;
+    background-color: rgb(85, 166, 142);
+    transition: 0.3s;
+}
+
+.tour-title {
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.feauters-items {
+    float: left;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.feauters-list {
+    margin-left: 187px;
+}
+
+.feauters-links {
+    color: #ffffff;
+}
+
+.feauters-links::after {
+    content: '\002F';
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.feauters-links-3 {
+    color: #ffffff;
+}

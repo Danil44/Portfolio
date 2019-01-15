@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+  .l-icon-section--list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 24px;
+  }
+
+  .c-feauter-icon {
+    transform: translate(35px, 25px);
+  }
+
+  .c-icon-section__item {
+    padding-top: 115px;
+    width: 297px;
+    @media (max-width: 1199px) {
+      &:nth-child(-n+2) {
+        padding-bottom: 30px;
+      }
+    }
+  }
+  @media (max-width: 1199px) {
+    .c-icon-section__item:not(:nth-child(even)) {
+      border-right: 1px rgb(241, 241, 241) solid;
+    }
+
+    .c-icon-section__item:nth-child(-n + 2) {
+      border-bottom: 1px rgb(241, 241, 241) solid;
+    }
+
+    .c-icon-section__item:nth-child(n + 3) {}
+  }
+
+  .c-icon__name {
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+  }
+}

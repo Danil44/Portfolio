@@ -1,0 +1,92 @@
+.word {
+    text-transform: uppercase;
+    font-family: Ubuntu Light, sans-serif;
+    color: #b4ad9e;
+    font-weight: 300px;
+    font-size: 14px;
+    height: 11px;
+    margin-top: 30px;
+}
+
+/* ЗАГЛАВИЕ СТАТТЕЙ */
+
+.about-title {
+    font-size: 30px;
+    height: 30px;
+    font-weight: 400;
+}
+
+/* СОДЕРЖИМОЕ СТАТТЕЙ */
+
+.text {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container article {
+    display: inline-block;
+    width: 420px;
+    height: 475px;
+}
+
+/* СПИСОК СТАТТЕЙ */
+
+.about-1 {
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+.about-2 {
+    margin-top: 100px;
+}
+
+.about-3 {
+    margin-top: 135px;
+    margin-right: 60px;
+}
+
+.about-4 {
+    margin-top: 135px;
+}
+
+.about-5 {
+    margin-top: 135px;
+    margin-right: 60px;
+    margin-bottom: 57px;
+}
+
+.about-6 {
+    margin-top: 135px;
+    margin-bottom: 57px;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+button {
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    background: none;
+    border: 1px solid #626262;
+    overflow: hidden;
+    padding-top: 22px;
+    padding-right: 34px;
+    padding-bottom: 22px;
+    padding-left: 34px;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: #03a9f4;
+}

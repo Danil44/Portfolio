@@ -1,0 +1,50 @@
+.container {
+    width: 1111px;
+    margin: auto;
+}
+
+.menu {
+    padding: 43px 0 32px;
+}
+
+.logo {
+font-family: 'Roboto';
+font-size: 30px;
+text-transform: uppercase;
+color: #555252;
+font-weight: 300;
+float: left;
+}
+
+.logo::first-letter {
+color: #1abc9c;
+font-weight: 900;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    margin-right: 34px;
+}
+
+.nav-item:last-child {
+    margin: 0;
+}
+
+.nav-link {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0f0101;
+}
+
+.nav-link:hover {
+    color: #1abc9c;
+    cursor: pointer;
+    transition: 0.5s;
+}
+

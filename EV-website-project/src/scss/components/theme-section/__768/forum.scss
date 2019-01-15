@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+  .c-forum__title {
+    margin-bottom: 62px;
+    font-size: 30px;
+  }
+
+  .l-forum__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .c-forum__item {
+    margin-bottom: 17px;
+
+    &:nth-child(n+5) {
+      margin-bottom: 0;
+    }
+  }
+
+  .c-forum__image {
+    width: 352px;
+    height: 260px;
+  }
+
+  .c-forum__inbox {
+    font-size: 14px;
+  }
+}

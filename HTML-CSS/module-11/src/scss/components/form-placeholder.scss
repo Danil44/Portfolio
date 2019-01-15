@@ -1,0 +1,21 @@
+.email {
+  margin-top: 11px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  height: 18px;
+  width: 229px;
+  font-family: $text-font-stack;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+::placeholder {
+  color: $placeholder-text-color;
+  font-style: italic;
+}

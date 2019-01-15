@@ -1,0 +1,76 @@
+@media (min-width:1200px) {
+  .c-menu__item {
+    position: relative;
+    margin-right: 52px;
+
+    &:first-child {}
+
+    &:nth-child(3) {}
+
+    &:nth-child(4) {
+      margin-right: 90px;
+    }
+
+    &:nth-child(5) {
+      margin-right: 0;
+      position: relative;
+    }
+
+    &:nth-child(5)::before {
+      @extend .entry_elements;
+      background-image: url("../img/round-account-button-with-user-inside.svg");
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      transform: translate(-34px, 3px);
+      cursor: pointer;
+    }
+
+    &:nth-child(5)::after {
+      content: '\007C';
+      display: inline-block;
+      width: 0;
+      background-color: $secondary-white-color;
+      margin: 0 15px 0 16px;
+    }
+
+    &:nth-child(6) {
+      position: relative;
+    }
+
+    &:nth-child(6)::after {
+      @extend .entry_elements;
+      background-image: url("../img/information.svg");
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      transform: translate(19px, -2px);
+      cursor: pointer;
+    }
+
+    &:last-child {
+      display: none;
+    }
+  }
+
+  .c-menu__item:first-child::after {
+    @extend .entry_elements;
+    background-image: url("../img/down-chevron.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 10px;
+    fill: $primary-dark-color;
+    margin-left: 14px;
+  }
+
+  .entry_elements {
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+  }
+}

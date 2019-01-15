@@ -1,0 +1,9 @@
+@media (min-width: 1200px) {
+  .l-header {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}

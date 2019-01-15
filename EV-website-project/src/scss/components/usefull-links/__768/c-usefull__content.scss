@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .c-usefull__content {
+    width: 100%;
+  }
+
+  .c-usefull__content:last-of-type::after {
+    width: 720px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .c-usefull__picture {
+    max-width: none;
+    margin-right: 32px;
+  }
+  .l-usefull__info {
+    width: 320px;
+    position: relative;
+  }
+  .google-play__btn {
+    width: 145px;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+  }
+}

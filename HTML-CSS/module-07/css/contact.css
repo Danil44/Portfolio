@@ -1,0 +1,100 @@
+.wrapper_footer {
+    background-color: #222222;
+    background-image: url(../img/Map\ Image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.contact {
+    color: #ffffff;
+    padding-top: 105px;
+}
+
+.message_form {
+    max-width: 945px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputs {
+    margin-right: 28px;
+}
+
+input {
+    padding: 15px 280px 19px 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 0;
+    display: block;
+}
+
+input:not(:last-child) {
+    margin-bottom: 26px;
+}
+
+input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 1pt 2pt #fed136;
+}
+
+input[type='email']:valid,
+input[name='name']:valid {
+    box-shadow: 0 0 0 1pt #35bf4d;
+}
+
+input[type='email']:invalid,
+input[name='name']:invalid {
+    box-shadow: 0 0 0 1pt #d61a1a;
+    background-color: #ffdddd;
+}
+
+#message:invalid {
+    box-shadow: 0 0 0 1pt #d61a1a;
+    background-color: #ffdddd;
+}
+
+::placeholder {
+    color: #bbb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+textarea {
+    resize: none;
+    width: 449px;
+    height: 200px;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.button {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 90px;
+    margin-left: auto;
+}
+
+.btn {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 24px 47px;
+    background-color: #fed136;
+    outline: none;
+    border: 2px solid #fed136;
+    border-radius: 3.5px;
+    transition: 0.2s linear;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #fed136;
+    transition: 0.2s linear;
+}

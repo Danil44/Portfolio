@@ -1,0 +1,36 @@
+body {
+  font-family: Playfair Display;
+  font-size: 0px;
+  color: #626262;
+  font-weight: 400;
+}
+
+/* МЕНЮ */
+
+.main-nav {
+  text-align: center;
+  margin-top: 77px;
+}
+
+.main-nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 100px;
+}
+
+.main-nav li:last-child {
+  margin: 0px;
+}
+
+.nav-list a {
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.nav-list a {
+  color: #03a9f4;
+}
+
+

@@ -1,0 +1,176 @@
+.team_section {
+    padding-top: 92px;
+    padding-bottom: 65px;
+}
+
+.team::after {
+    margin-bottom: 45px;
+}
+
+.about_team {
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 92px;
+    margin-left: auto;
+    width: 940px;
+}
+
+.members_cards {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.member_info {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+.name {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    cursor: default;
+}
+
+.occupation {
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 24px;
+    cursor: default;
+}
+
+.slash::before {
+    content: '\002F';
+    margin-right: 3px;
+}
+
+.member_card {
+    position: relative;
+}
+
+.wrapper_green {
+    background-color: rgba(149, 225, 211, 0.5);
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    opacity: 0;
+    transition: 0.2s linear;
+    
+}
+
+.member_card:hover .wrapper_green {
+    opacity: 1;
+    transition: 0.2s 
+    
+}
+
+.wrapper_sunset {
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+    z-index: 4;
+    opacity: 0;
+    transition: 0.2s linear;
+    
+}
+
+.member_card:hover .wrapper_sunset {
+    opacity: 1;
+    transition: 0.2s ;
+    transform: translate(-3%, -2%);
+}
+
+.medias_list {
+    position: absolute;
+    width: 225px;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -25px);
+}
+
+
+
+.facebook {
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fce38a;
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    z-index: 5;
+    
+}
+
+
+.twitter {
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fce38a;
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    z-index: 5;
+    transform: translateX(1%)
+    
+}
+
+.pinterest {
+    background-image: url(../img/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fce38a;
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    z-index: 5;
+    transform: translateX(4%)
+    
+}
+
+.instagram {
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fce38a;
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    z-index: 5;
+    transform: translateX(7%)
+    
+}
+
+.icons {
+    transition: 0.2s linear;
+}
+
+.icons:hover {
+    background-color: #95e1d3;
+    transition: 0.2 linear;
+    transform: scale(1.1) translate(-8%, -1%)
+}
+
+
+
+

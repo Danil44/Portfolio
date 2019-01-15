@@ -1,0 +1,19 @@
+.subscribe__btn {
+  padding: 13px 34px;
+  border: none;
+  background: none;
+  background-color: $subscribe-btn-color;
+  color: white;
+  font-family: $main-font-stack;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: translateX(-3.5%);
+  opacity: 0.7;
+  transition: 0.2s linear;
+
+  &--hover:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+}

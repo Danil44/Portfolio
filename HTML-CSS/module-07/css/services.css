@@ -1,0 +1,74 @@
+.services {
+    padding-bottom: 125px;
+}
+.title {
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.phrase {
+    color: #777;
+    font-family: 'Merriweather', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+
+.service_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_item {
+    width: 290px;
+}
+
+.icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    display: block;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    padding: 30px;
+    width: 37px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+.basket {
+    background-image: url(../img/Icon-Basket.png);
+   
+}
+.laptop {
+    background-image: url(../img/Icon-Laptop.png);
+   
+}
+.locked {
+    background-image: url(../img/Icon-Locked.png);
+    
+}
+.service_title {
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.describtion {
+    text-align: center;
+    color: #777;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 14px;
+}
+

@@ -1,0 +1,21 @@
+
+.remove-user__form {
+  padding: 20px;
+}
+
+.remove-user__form input {
+  margin-right: 12px;
+  padding: 4px;
+  outline: 0;
+  border: 0;
+  color: #263238;
+  font-size: 18px;
+  background-color: transparent;
+  border-bottom: 2px solid #00796b;
+  &::placeholder {
+    color: #616161;
+  }
+}
+p {
+  font-size: 18px;
+}

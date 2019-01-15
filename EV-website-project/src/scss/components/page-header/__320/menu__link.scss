@@ -1,0 +1,14 @@
+.c-menu__link {
+  font-family: $primary-font-stack;
+  color: $primary-white-color;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  &:hover .c-submenu-list {
+    display: none;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}

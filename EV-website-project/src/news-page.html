@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="copyright" content="Author" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
+    <meta name="apple-mobile-web-app-title" content="Application Name" />
+    <meta
+      name="msapplication-TileImage"
+      content="images/favicons/144x144.png"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>EV HUB</title>
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
+
+  <body>
+    <div class="l-header_underline container">
+      <header class="l-header">
+        <a href="home-page.html" class="c-logo">Ev hub</a>
+        <a class="l-menu-toggle"> <span class="c-burger"></span> </a>
+        <nav class="l-menu">
+          <ul class="l-menu__list">
+            <li class="c-menu__item">
+              <a href="#" class="c-menu__link menu__link_drop-down">Форум</a>
+              <ul class="l-submenu-list">
+                <li class="c-submenu__item">
+                  <a href="#" class="c-submenu__link">Электрокары, гибриды</a>
+                </li>
+                <li class="c-submenu__item">
+                  <a href="#" class="c-submenu__link">Зарядные станции</a>
+                </li>
+                <li class="c-submenu__item">
+                  <a href="#" class="c-submenu__link">Электровелосипеды</a>
+                </li>
+                <li class="c-submenu__item">
+                  <a href="#" class="c-submenu__link">Гироборды, сигвеи</a>
+                </li>
+                <li class="c-submenu__item">
+                  <a href="#" class="c-submenu__link">Другое</a>
+                </li>
+                <li class="c-submenu__item">
+                  <a href="#" class="c-submenu__link">Частые вопросы</a>
+                </li>
+              </ul>
+            </li>
+            <li class="c-menu__item">
+              <a href="calendar-page.html" class="c-menu__link">
+                Календарь мероприятий</a
+              >
+            </li>
+            <li class="c-menu__item">
+              <a
+                href="news-page.html"
+                class="c-menu__link c-menu__link_visiting"
+              >
+                Новости</a
+              >
+            </li>
+            <li class="c-menu__item">
+              <a href="usefull-links.html" class="c-menu__link">
+                Полезные ссылки</a
+              >
+            </li>
+            <li class="c-menu__item">
+              <a href="#" class="c-menu__link c-menu__link_desktop"> Вход</a>
+            </li>
+            <li class="c-menu__item">
+              <a href="#" class="c-menu__link c-menu__link_desktop">
+                Регистрация</a
+              >
+            </li>
+            <li class="c-menu__item">
+              <a href="#" class="c-menu__link"> Информация</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main class="main">
+      <!-- NEWS-PAGE -->
+
+      <!-- news-section -->
+      <section class="l-news container">
+        <h2 class="title section__title">Новости</h2>
+        <ul class="l-news__list">
+          <li class="c-news__item">
+            <!--
+              <picture class="news-section __img">
+                <source media="(min-width: 1200px)" srcset="img/news-section/28_09_2018_tesla_model_s_p100d/tesla_model_s_p100d@1x.png, img/news-section/28_09_2018_tesla_model_s_p100d/tesla_model_s_p100d@2x.png 2x" sizes="475w">
+                  <img src="img/news-section/28_09_2018_tesla_model_s_p100d/tablet_tesla_model_s_p100d@1x.png" srcset="img/news-section/28_09_2018_tesla_model_s_p100d/tablet_tesla_model_s_p100d@2x.png 2x" alt="Tesla cars">
+              </picture>
+            -->
+
+            <div class="c-news__video">
+              <iframe
+                class="c-news__iframe"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/eE_m65hoKgg?rel=0&amp;showinfo=0"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <a href="#" class="c-news__link">
+              <h3 class="title c-news__title">
+                Видео бронированной Tesla Model S P100D
+              </h3>
+            </a>
+            <p class="main-text c-news__desc">
+              Недавно сообщалось, что компания Armorax работает над уникальным
+              проектом, а именно бронированием электромобиля Tesla Model S
+              P100D...
+            </p>
+            <p class="main-text c-news__date">23 сентября 2018</p>
+          </li>
+          <li class="c-news__item">
+            <picture class="c-news__img">
+              <source
+                media="(min-width: 1200px)"
+                srcset="
+                  img/news-section/13-09-2018__elon_musk_interview/elon_musk_interview@1X.png,
+                  img/news-section/13-09-2018__elon_musk_interview/elon_musk_interview@2x.png 2x
+                "
+                sizes="475w"
+              />
+              <img
+                src="img/news-section/13-09-2018__elon_musk_interview/tablet_elon_musk_interview@1X.png"
+                srcset="
+                  img/news-section/13-09-2018__elon_musk_interview/tablet_elon_musk_interview@2x.png 2x
+                "
+                sizes="720w"
+                alt="Elon Musk on Tesla Factory"
+              />
+            </picture>
+            <a href="#" class="c-news__link">
+              <h3 class="title c-news__title">
+                Интервью с Илоном Маском и экскурсия по фабрике электромобилей
+                Tesla во Фримонте
+              </h3>
+            </a>
+            <p class="main-text c-news__desc">
+              Вчера мы написали о том, что львиная доля электромобилей Tesla
+              Model 3 из первой рекордной партии потребовала дополнительного
+              ремонта....
+            </p>
+            <p class="main-text c-news__date">13 сентября 2018</p>
+          </li>
+          <li class="c-news__item">
+            <picture class="c-news__img">
+              <source
+                media="(min-width: 1200px)"
+                srcset="
+                  img/news-section/13-09-2018__electric_vehicles_in_ukraine/electric_vehicles_in_ukraine@1X.png 1x,
+                  img/news-section/13-09-2018__electric_vehicles_in_ukraine/electric_vehicles_in_ukraine@2X.png 2x
+                "
+                sizes="475w"
+              />
+              <img
+                src="img/news-section/13-09-2018__electric_vehicles_in_ukraine/tablet_electric_vehicles_in_ukraine@1X.png"
+                srcset="
+                  img/news-section/13-09-2018__electric_vehicles_in_ukraine/tabler_electric_vehicles_in_ukraine@2X.png 2x
+                "
+                sizes="720w"
+                alt="Electric vehicle"
+              />
+            </picture>
+            <a href="#" class="c-news__link">
+              <h3 class="title c-news__title">
+                Украинцы пересаживаются на электромобили
+              </h3>
+            </a>
+            <p class="main-text c-news__desc">
+              Министр инфраструктуры Украины Владимир Омелян опубликовал
+              интересную инфографику со статистикой продаж электромобилей в
+              Украине за первое полугодие 2018 года...
+            </p>
+            <p class="main-text c-news__date">13 сентября 2018</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a href="home-page.html" class="c-footer-logo">ev hub</a>
+      <ul class="l-footer-socials">
+        <li class="c-footer-social__item">
+          <a
+            class="c-footer-social__link"
+            href="https://www.facebook.com/"
+            target="_blank"
+            >facebook</a
+          >
+        </li>
+        <li class="c-footer-social__item" target="_blank">
+          <a
+            class="c-footer-social__link"
+            href="https://www.twitter.com/"
+            target="_blank"
+            >twitter</a
+          >
+        </li>
+        <li class="c-footer-social__item" target="_blank">
+          <a
+            class="c-footer-social__link"
+            href="https://www.instagram.com/"
+            target="_blank"
+            >instagram</a
+          >
+        </li>
+      </ul>
+      <p class="c-footer-copyright">@ All Rights Reserved 2018</p>
+      <!-- UP BUTTON -->
+      <a href="#" class="up-button"></a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+      $(".l-menu-toggle").click(function() {
+        $(".l-menu__list").toggleClass("menu__list--open", 600);
+        $(this).toggleClass("open");
+      });
+
+      $(".c-menu__item").click(function() {
+        $(this)
+          .children("ul")
+          .slideToggle();
+      });
+    </script>
+    <script type="application/json" src="js/scripts.min.js"></script>
+  </body>
+</html>

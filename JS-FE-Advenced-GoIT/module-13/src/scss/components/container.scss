@@ -1,0 +1,43 @@
+.chart-container {
+  padding: 80px 150px;
+  width: 40%;
+  background-color: #ffffff;
+}
+#pie-chart {
+  background-color: rgba($color: #ffffff, $alpha: 1.0);
+}
+
+.chart-section {
+  width: 800px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-left: 15px;
+}
+
+form input {
+  width: 300px;
+  height: 25px;
+  border: 1px solid black;
+  font-size: 18px;
+  padding: 0 6px;
+  color: black;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+}
+.btn{
+  background-color: rgb(83, 184, 83);
+  cursor: pointer;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  padding: 4px;
+  width: 100px;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}

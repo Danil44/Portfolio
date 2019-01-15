@@ -1,0 +1,24 @@
+.service-section {
+  padding-bottom: 25px;
+}
+
+.section__lead {
+  color: $primary-dark-color;
+  font-size: 24px;
+  padding-top: 18px;
+  margin-bottom: -9px;
+}
+
+.section__subtitle {
+  font-size: 29px;
+  color: $primary-dark-color;
+
+  &--underline::after {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 3.5px;
+    background-color: $secondary-color;
+    margin: 37px auto 48px auto;
+  }
+}

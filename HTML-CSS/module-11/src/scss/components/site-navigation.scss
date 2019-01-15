@@ -1,0 +1,36 @@
+.site-navigation {
+  width: 600px;
+}
+
+.site-navigation__item:nth-child(6) {
+  padding-left: 53px;
+
+}
+
+.site-navigation__link {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s linear;
+  padding-bottom: 7px;
+
+  &--hover:hover {
+    color: $link-color;
+    border-color: $link-color;
+  }
+}
+
+.site-navigation__icon {
+  fill: #ffffff;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 7px;
+  transition: 0.2s linear;
+
+  &--hover:hover {
+    fill: $link-color;
+    border-color: $link-color;
+  }
+}

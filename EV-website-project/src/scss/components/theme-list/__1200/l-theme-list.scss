@@ -1,0 +1,16 @@
+@media (min-width: 1200px) {
+  .l-theme {
+    height: 563px;
+    width: 374px;
+    border: 1px solid rgba(119,119,119, 0.3);
+    margin-top: 100px;
+    padding: 41px 10px 0px;
+  }
+  .c-theme-list__name {
+    font-size: 20px;
+  }
+
+  .l-theme-list__button:last-of-type {
+    margin-bottom: 0;
+  }
+}

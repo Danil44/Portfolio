@@ -1,0 +1,23 @@
+.btn-wrapper {
+  text-align: center;
+  padding-bottom: 230px;
+}
+
+.btn {
+  font-size: 14px;
+  color: $primary-white-color;
+  text-transform: uppercase;
+  font-family: $main-font-stack;
+  font-weight: bold;
+  outline: none;
+  background-color: transparent;
+  border: 3px solid $primary-white-color;
+  padding: 9px 28px;
+  cursor: pointer;
+  transition: 0.2s linear;
+
+  &--hover:hover {
+    transform: scale(1.1);
+    border-color: $secondary-color;
+  }
+}

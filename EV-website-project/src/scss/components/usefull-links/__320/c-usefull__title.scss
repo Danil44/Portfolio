@@ -1,0 +1,15 @@
+.c-usefull__title {
+  font-size: 20px;
+  color: $secondary-dark-color;
+  font-family: $primary-font-stack;
+
+  &::after {
+    content: "";
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 11px;
+    width: 50px;
+    height: 1px;
+    background-color: #17becf;
+  }
+}

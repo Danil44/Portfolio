@@ -1,0 +1,116 @@
+.feauters {
+  width: 1114px;
+}
+
+.title {
+  color: #515151;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-feauters {
+  margin-top: 106px;
+}
+
+.title::after {
+  content: "";
+  width: 160px;
+  display: block;
+  background-color: #1abc9c;
+  height: 8px;
+  margin: auto;
+  margin-top: 34px;
+  margin-bottom: 80px;
+}
+
+.card-image {
+  height: 322px;
+  width: 255px;
+}
+
+.card {
+  width: 255px;
+  height: 322px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+ 
+}
+.card:hover .card-image {
+  cursor: pointer;
+  
+}
+
+.card:hover .card-name {
+  background-color: #1abc9c;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card:hover .price {
+  background-color: #7fd9c7;
+  
+}
+
+
+
+
+.card:nth-child(n + 6) {
+  margin-bottom: 0;
+}
+
+.card:nth-child(5) {
+  margin-right: 0;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card-name {
+  background-color: #323232;
+  height: 40px;
+  width: 255px;
+  bottom: 41px;
+  position: absolute;
+  top: 281px;
+}
+
+
+.name {
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  float: left;
+  position: absolute;
+  padding: 10px 50px 8px 15px;
+}
+
+
+
+.price {
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #8c8c8c;
+  width: 55px;
+  height: 40px;
+  float: right;
+  padding: 10px 11px;
+  transition: 0.5s;
+}
+
+.price::before {
+  content: '\0024';
+  display: block;
+  float: left;
+}
+

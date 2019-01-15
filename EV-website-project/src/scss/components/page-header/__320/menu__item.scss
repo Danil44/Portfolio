@@ -1,0 +1,32 @@
+@media (max-width: 1199px) {
+  .c-menu__item {
+    text-align: left;
+    padding-left: 30px;
+    width: 213px;
+
+    &:first-child {
+      padding-top: 31px;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 244px;
+      height: 1px;
+      background-color: #3e3e3e;
+      margin-top: 17px;
+      margin-bottom: 19px;
+    }
+
+    &:last-child {
+      padding-bottom: 30px;
+    }
+
+    .c-menu__item:last-of-type::after {
+      content: '';
+      height: 0;
+      width: 0;
+      margin: 0;
+    }
+  }
+}

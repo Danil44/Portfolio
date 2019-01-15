@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  .c-theme-list__name {
+    font-size: 20px;
+  }
+
+  .c-button__button-name {
+    width: 297px;
+  }
+
+  .l-theme-list__button:last-of-type {
+    padding-bottom: 0;
+  }
+
+  .c-theme__list {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 723px;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

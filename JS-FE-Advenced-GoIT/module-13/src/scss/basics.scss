@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font-stack;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-dark-color;
+  display: block;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  @extend input;
+  background: transparent;
+}

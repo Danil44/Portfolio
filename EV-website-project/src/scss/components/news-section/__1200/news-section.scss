@@ -1,0 +1,34 @@
+@media (min-width: 1200px) {
+  .l-news__list {
+    flex-direction: row;
+  }
+
+  .c-news__item {
+    width: 372px;
+
+    &:not(:nth-child(3n)) {
+      margin-right: 37px;
+    }
+  }
+
+  .c-news__video {
+    padding-bottom: 76%;
+  }
+
+  .c-news__title {
+    margin-top: 31px;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.055em;
+  }
+
+  .c-news__desc {
+    margin-top: 25px;
+    height: 72px;
+  }
+
+  .c-news__date {
+    margin-top: 23px;
+    font-weight: 700;
+  }
+}

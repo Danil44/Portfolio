@@ -1,0 +1,49 @@
+.l-menu-toggle {
+  top: 15%;
+  right: 5%;
+  position: absolute;
+  display: block;
+  width: 45px;
+  height: 45px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.c-burger {
+  background-color: #444444;
+  height: 2px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    background-color: #444444;
+    height: 2px;
+    width: 40px;
+    transition: all 0.5s linear;
+  }
+
+  &::before {
+    transform: translateY(-10px);
+  }
+
+  &::after {
+    transform: translateY(8px);
+  }
+}
+
+.open .c-burger {
+  transform: rotate(45deg);
+}
+
+.open .c-burger::before {
+  opacity: 0;
+}
+
+.open .c-burger::after {
+  transform: translateY(-2px) rotate(-90deg);
+}

@@ -1,0 +1,11 @@
+.notes-section {
+    padding-right: 10px;
+    padding-left: 10px;
+  
+    @media (min-width: 768px) {
+      width: 750px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  

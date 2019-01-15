@@ -1,0 +1,28 @@
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #2e2e2eef;
+  background-color: #eaeaea
+}
+
+a {
+  text-decoration: none;
+  color: #2e2e2eef;
+}
+
+button:focus {
+  outline: 0;
+}
+
+img {
+  display: block;
+  min-height: auto;
+}
+
+.container {
+  width: 1450px;
+  padding: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}

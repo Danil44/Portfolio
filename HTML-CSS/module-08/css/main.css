@@ -1,0 +1,221 @@
+.main {
+    padding-top: 65px;
+}
+
+.section_title {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 2px;
+    padding-right: 6px;
+}
+
+.partners_list {
+    width: 218px;
+    margin: auto;
+}
+
+.partner_picture {
+    border-radius: 50%;
+}
+
+.partner-photo {
+    position: relative;
+    width: 120px;
+    height: 121px;
+    margin: 0 auto 23px auto;
+}
+
+.partner-photo::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -4px;
+    top: 71%;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-image: url('../img/tv.png');
+    background-position: center;
+    background-color: #ff4e50;
+    background-size: 17px 17px;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+}
+
+.bottle_icon::after {
+    position: absolute;
+    background-color: #ffa507;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    right: -5px;
+    top: 72%;
+    background-image: url('../img/bottle.png');
+    background-position: center;
+    background-size: 15px 19px;
+}
+
+.tea_icon::after {
+    position: absolute;
+    background-color: #1cd7ad;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    right: -2px;
+    top: 73%;
+    background-image: url('../img/tea.png');
+    background-position: 6px 4px;
+    background-size: 21px 22px;
+}
+
+
+.message_icon::after {
+    position: absolute;
+    background-color: #4e73db;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    right: -1px;
+    top: 72%;
+    background-image: url('../img/message.png');
+    background-position: 6px 7px;
+    background-size: 20px 21px;
+}
+
+.heather {
+    margin-bottom: 2px;
+}
+
+.partner_name {
+    margin-bottom: 13px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.partner_info {
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.partner_info {
+    margin-bottom: 24px;
+}
+
+.section_btn {
+    color: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border: 2px solid #ff4e50;
+    border-radius: 40px;
+    padding: 11px 69px;
+    background-color: transparent;
+    margin-bottom: 68px;
+}
+
+.section_btn:active {
+    cursor: pointer;
+    transition: 40ms linear;
+    background-color: #ff4e50;
+    color: #ffffff
+}
+
+@media (min-width: 748px) {
+    .phrase {
+        margin-bottom: 44px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .section_title {
+        margin-bottom: 33px;
+    }
+
+    .partners_list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 473px;
+    }
+
+    .partner {
+        width: 232px;
+    }
+
+    .partner_name {
+        margin-bottom: 15px;
+        color: #333;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .partner_info {
+        margin-bottom: 55px;
+    }
+
+    .partner-photo {
+        margin: 0 auto 18px auto;
+    }
+
+    .bradley {
+        padding-right: 15px;
+        margin-right: 7px;
+    }
+
+    .heather {
+        padding-left: 23px;
+    }
+
+    .lucas {
+        order: 3;
+        padding-right: 14px;
+    }
+
+    .maria {
+        order: 4;
+        padding-left: 36px;
+    }
+
+    .message_icon::after {
+        right: -3px;
+        top: 70%;
+    }
+
+    .section_btn {
+        padding: 9px 26px;
+    }
+}
+
+@media (min-width: 942px) {
+    .partners_list {
+        width: 942px;
+        justify-content: space-between
+    }
+
+    .partner_picture {
+        cursor: pointer;
+        transition: 0.2s linear;
+    }
+
+    .partner_picture:hover {
+        transform: scale(1.05) translate(-2%, 2%)
+    }
+
+    .section_btn {
+        padding: 13px 20px;
+        transition: 0.2s linear;
+    }
+
+    .section_btn:hover {
+        cursor: pointer;
+        transition: 0.2s linear;
+        background-color: #ff4e50;
+        color: #ffffff
+    }
+}

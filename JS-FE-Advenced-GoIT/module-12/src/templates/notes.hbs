@@ -1,0 +1,20 @@
+<li class="notes__item">
+    <div class="modal-question modal--hidden-opacity modal--hidden-display">
+        <div class="modal-question__content">
+            <h2 class="modal-question__title">Delete this note?</h2>
+            <button type="submit" class="modal-delete__button modal__btn">Delete</button>
+            <button type="reset" class="js-cancel__button modal__btn">Cancel</button>
+        </div>
+    </div>
+    <div class="note__delete-btn"><span></span></div>
+    <div class="note__item-wrapper">
+        <a class="note__link" href="{{url}}" target="blank">
+            <h3 class="note__title">{{title}}</h3>
+            <img class="note__image" src="{{img}}" alt="{{title}}">
+        </a>
+        <div class="note-desc-wrapper">
+            <a href="{{url}}" class="note__link-title">{{url}}</a>
+            <p class="note__desc">{{desc}}</p>
+        </div>
+    </div>
+</li>

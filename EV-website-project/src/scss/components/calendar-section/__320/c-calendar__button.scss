@@ -1,0 +1,17 @@
+.c-calendar__button {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: $primary-white-color;
+  font-family: $calendar-btn-font;
+  font-weight: bold;
+  padding: 15px 56px;
+  background-color: $calendar-btn-color;
+  cursor: pointer;
+  border: 2px solid $calendar-btn-color;
+  transition: 0.2s linear;
+
+  &:hover {
+    background-color: transparent;
+    color: $calendar-btn-color;
+  }
+}
