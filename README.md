@@ -12,7 +12,7 @@
 3.[Desktop landing page for retina displays / BEM methodology](https://danil44.github.io/Go-IT-FE-Course--/HTML-CSS/module-10/index.html)
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/HTML-CSS/module-10)
 
-4.[Rewrited third landing page using Gulp & SASS](https://danil44.github.io/Go-IT-FE-Course--/HTML-CSS/module-11/build/index.html)
+4.[Desktop landing page for retina displays / BEM methodology, Gulp & SASS](https://danil44.github.io/Go-IT-FE-Course--/HTML-CSS/module-11/build/index.html)
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/HTML-CSS/module-11)
 
 ### Vanilla JS (ES6)
