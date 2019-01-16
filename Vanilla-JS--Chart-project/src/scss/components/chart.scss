@@ -1,0 +1,26 @@
+#chart {
+  @media (max-width: 1279px) {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+  }
+}
+
+.chart-container {
+  position: relative;
+  max-width: 80%;
+  padding: 110px 20px;
+  @media (min-width: 1280px) {
+    max-width: 100%;
+  }
+}
+
+.chart-section {
+  width: 310px;
+  margin-top: 67px;
+  box-shadow: -2px 5px 16px 1px rgba(0, 0, 0, 0.29);
+  background-color: $primary-light-color;
+  @media (min-width: 1280px) {
+    width: 680px;
+  }
+}

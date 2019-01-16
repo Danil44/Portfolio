@@ -1,0 +1,118 @@
+.interface-section {
+  width: 310px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media (min-width: 1280px) {
+    margin-right: 50px;
+    width: 518px;
+  }
+}
+
+.interface__save-btn {
+  background-color: $secondary-color;
+  color: $primary-light-color;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 28px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.user-interface {
+  position: relative;
+  margin-top: 40px;
+  background-color: $primary-light-color;
+  box-shadow: -7px 6px 24px -5px rgba(0, 0, 0, 0.29);
+  margin-bottom: 30px;
+  @media (min-width: 1280px) {
+    min-height: 510px;
+  }
+}
+
+.file-name {
+  color: $primary-text-color;
+}
+
+.interface {
+  padding: 17px 26px;
+  position: relative;
+}
+
+.interface__controllers {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 210px;
+  justify-content: space-between;
+}
+
+.interface__color-palette {
+  position: absolute;
+  top: 62px;
+  left: 10px;
+}
+
+.color-palette--hide {
+  display: none;
+}
+
+.interface__clear-btn > span {
+  &::before,
+  &::after {
+    position: absolute;
+    left: 50%;
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 16px;
+    background-color: $secondary-buttons-color;
+  }
+  &::before {
+    transform: translate(-50%) rotate(47deg);
+  }
+  &::after {
+    transform: translate(-50%) rotate(-47deg);
+  }
+}
+
+.interface__pdf-btn {
+  position: relative;
+  color: $primary-light-color;
+  background-color: $secondary-color;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 12px 10px 13px 53px;
+  cursor: pointer;
+  @media (min-width: 1280px) {
+    padding: 18px 17px 18px 55px;
+  }
+}
+
+.pdf-icon {
+  background-image: url("/src/svg/pdf-file.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 0;
+  top: 0;
+  transform: translate(30%, 14%);
+  @media (min-width: 1280px) {
+    width: 43px;
+    height: 43px;
+    transform: translate(13%, 12%);
+  }
+}
+
+input[type="file"] {
+  width: 23.1px;
+  height: 26.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  left: 4%;
+}
+input {
+  cursor: pointer;
+}

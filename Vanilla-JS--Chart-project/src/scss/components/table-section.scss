@@ -1,0 +1,47 @@
+.interface__user-table {
+  padding-bottom: 15px;
+}
+
+table {
+  max-width: 460px;
+}
+
+td {
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  padding: 3px 1px;
+  font-size: 12px;
+  min-width: 110px;
+  max-width: 110px;
+  @media (min-width: 1280px) {
+    padding: 6px 8px;
+    min-width: 213px;
+    max-width: 213px;
+  }
+}
+
+th {
+  @extend td;
+  border: 3px solid rgba(0, 0, 0, 0.19);
+  font-size: 16px;
+  height: 16px;
+  color: $table-titles-color;
+  font-weight: 600;
+  @media (min-width: 1280px) {
+    font-size: 20px;
+  }
+}
+
+td:focus {
+  background-color: #ffeee8;
+  outline: 0;
+}
+
+.interface__clear-btn {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  bottom: 1%;
+  right: 6%;
+  cursor: pointer;
+}
+

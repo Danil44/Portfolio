@@ -1,0 +1,28 @@
+.container {
+  padding: 0 5px 0;
+  @media (min-width: 1280px) {
+    padding: 0;
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
+
+.page-head {
+  height: 120px;
+  background-color: $header-color;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 80px;
+  @media (min-width: 1280px) {
+    flex-direction: row;
+  }
+}
+
+.interface__icon {
+  cursor: pointer;
+  display: block;
+}

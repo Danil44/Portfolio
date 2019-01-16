@@ -1,0 +1,77 @@
+.chart-choosing {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+.charts-list {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  @media(min-width:1280px){
+    width: 610px;
+  }
+}
+
+.chart__item {
+  position: relative;
+  width: 35px;
+  padding: 8px 9px 8px 32px;
+  display: flex;
+  align-items: center;
+  background-color: $primary-light-color;
+  font-size: 9px;
+  color: $primary-text-color;
+  text-align: center;
+  border: 2px solid $secondary-color;
+  cursor: pointer;
+  transition: 0.1s linear;
+  @media (min-width: 1280px) {
+    width: 72px;
+    padding: 8px 5px 8px 49px;
+    font-size: 15px;
+  }
+
+  &:hover {
+    color: $primary-light-color;
+    background-color: $secondary-color;
+  }
+
+  &:hover .icon {
+    fill: $primary-light-color;
+  }
+
+  &:first-child {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  &:last-child {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  &:not(:last-child) {
+    border-right: 0;
+  }
+}
+
+.chart__item--selected {
+  color: $primary-light-color;
+  background-color: $secondary-color;
+  & .icon {
+    fill: $primary-light-color;
+  }
+}
+
+.icon {
+  position: absolute;
+  fill: $secondary-color;
+  width: 25px;
+  height: 25px;
+  left: 0;
+  transform: translate(6px, -2px);
+  @media (min-width: 1280px) {
+    width: 35px;
+    height: 35px;
+    transform: translate(9px, -2px);
+  }
+}
