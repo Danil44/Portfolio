@@ -20,8 +20,8 @@
 1.[Filtering list of products / Using Handlebars](https://danil44.github.io/Go-IT-FE-Course--/JS-FE-Advenced-GoIT/module-11/index.html)
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/JS-FE-Advenced-GoIT/module-11)
 
-2.[Application with adaptive page to store notes in localstorage / Using Webpack](https://danil44.github.io/Go-IT-FE-Course--/JS-FE-Advenced-GoIT/module-12/build/index.html) 
+2.[Application with adaptive page to store notes in localstorage / Using Webpack & API requests](https://danil44.github.io/Go-IT-FE-Course--/JS-FE-Advenced-GoIT/module-12/build/index.html) 
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/JS-FE-Advenced-GoIT/module-12)
 
-3.[Application with adaptive page to store notes in localstorage / Using WebPack & MVC patterns](https://danil44.github.io/Go-IT-FE-Course--/JS-FE-Advenced-GoIT/module-13/build/index.html)
+3.[Application with adaptive page to store notes in localstorage / Using WebPack, MVC patterns & API requests](https://danil44.github.io/Go-IT-FE-Course--/JS-FE-Advenced-GoIT/module-13/build/index.html)
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/JS-FE-Advenced-GoIT/module-13)
