@@ -39,11 +39,15 @@ export default class Model extends EventEmitter {
         datasets: [
           {
             label: "# of Votes",
-            backgroundColor: [],
+            backgroundColor: [
+              "rgba(237, 28, 36, 1)",
+              "rgba(255, 242, 0, 1)",
+              "rgba(0, 166, 81, 1)"
+            ],
             hoverBackgroundColor: [],
             hoverBorderColor: [],
             borderColor: "#ffffff",
-            data: [],
+            data: [10, 15, 35],
             borderWidth: 1,
             fill: false
           }
@@ -146,8 +150,8 @@ export default class Model extends EventEmitter {
     else reader.readAsArrayBuffer(f);
 
     const filesName = document.querySelector(".file-name");
-    filesName.textContent = files[0].name
-    console.log(files[0].name)
+    filesName.textContent = files[0].name;
+    console.log(files[0].name);
   }
 
   savePDF(chartImg) {
@@ -182,6 +186,10 @@ export default class Model extends EventEmitter {
     // const colorInStorage = this.configs[3];
     // colorInStorage[index] = color;
     // storage.set(this.configs);
+  }
+
+  destroyChart() {
+    this.chart.destroy();
   }
 
   // showTableFromStorage(labels, numbers) {

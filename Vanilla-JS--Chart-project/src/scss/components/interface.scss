@@ -3,6 +3,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
   @media (min-width: 1280px) {
     margin-right: 50px;
     width: 518px;
@@ -90,7 +92,7 @@
 }
 
 .pdf-icon {
-  background-image: url("/src/svg/pdf-file.svg");
+  background: url("/src/svg/pdf-file.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 32px;

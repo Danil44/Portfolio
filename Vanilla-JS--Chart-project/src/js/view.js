@@ -146,6 +146,6 @@ export default class View extends EventEmitter {
   }
 
   startIntro() {
-    // introJs().start();
+    introJs().start();
   }
 }

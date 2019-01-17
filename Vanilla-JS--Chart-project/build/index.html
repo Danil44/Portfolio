@@ -14,8 +14,12 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="../../node_modules/intro.js/introjs.css" />
+    <link
+      rel="stylesheet"
+      href="/codemirror-colorpicker/dist/codemirror-colorpciker.css/"
+    />
     <title>Chart</title>
-  <link href="styles.css?9ae120a62c86832e9f63" rel="stylesheet"></head>
+  <link href="styles.css?697789ea2de663832cca" rel="stylesheet"></head>
   <body>
     <header><div class="page-head"></div></header>
     <main
@@ -90,8 +94,10 @@
             <div class="interface__controllers">
               <div
                 class="interface__color-palette color-palette--hide"
-                data-step="5"
+                data-step="6"
                 data-intro="Then, choose a color for a chart part."
+                data-step="10"
+                data-intro="after what choose a color."
               ></div>
               <input
                 id="input-excel"
@@ -103,6 +109,8 @@
                 <img
                   class="interface__icon"
                   src="/src/svg/download.svg"
+                  data-step="5"
+                  data-intro="You can also upload an excel file which has to contains the same structure..."
                   width="27"
                   height="27"
                   alt="download button"
@@ -118,14 +126,15 @@
                 />
               </button>
               <button
-                data-step="6"
-                data-intro="And the last step - click save button!"
+                data-step="8"
+                data-intro="And click the save button."
                 class="interface__save-btn"
                 type="submit"
               >
                 Save
               </button>
             </div>
+
             <div class="interface__user-table">
               <table>
                 <tbody>
@@ -215,7 +224,11 @@
           </form>
         </div>
 
-        <button class="interface__pdf-btn">
+        <button
+          class="interface__pdf-btn"
+          data-step=""
+          data-intro="and download your chart as PDF file."
+        >
           <div class="pdf-icon"></div>
           Download PDF
         </button>
@@ -223,12 +236,16 @@
 
       <section class="chart-section">
         <div class="chart-container">
-          <canvas id="chart"></canvas>
+          <canvas
+            id="chart"
+            data-step="9"
+            data-intro="To change some part color: choose a part you want, and and click on color from palette."
+          ></canvas>
         </div>
       </section>
 
       <!-- <button class="save-pdf btn">Save PDF</button> -->
       <!-- <input type="file" class="input-excel" /> -->
     </main>
-  <script type="text/javascript" src="bundle.js?9ae120a62c86832e9f63"></script></body>
+  <script type="text/javascript" src="bundle.js?697789ea2de663832cca"></script></body>
 </html>

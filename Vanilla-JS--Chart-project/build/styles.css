@@ -150,11 +150,14 @@ button {
 
 .container {
   padding: 0 5px 0; }
-  @media (min-width: 1280px) {
+  @media (min-width: 768px) {
     .container {
       padding: 0;
-      width: 1250px;
-      margin: 0 auto; } }
+      width: 750px;
+      margin: 0 auto 50px; } }
+  @media (min-width: 1280px) {
+    .container {
+      width: 1250px; } }
 
 .page-head {
   height: 120px;
@@ -163,9 +166,8 @@ button {
 main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-bottom: 80px; }
-  @media (min-width: 1280px) {
+  justify-content: center; }
+  @media (min-width: 768px) {
     main {
       flex-direction: row; } }
 
@@ -173,28 +175,39 @@ main {
   cursor: pointer;
   display: block; }
 
-@media (max-width: 1279px) {
-  #chart {
-    position: absolute;
-    top: 15%;
-    left: 2%; } }
+#chart {
+  position: absolute;
+  top: 15%;
+  left: 2%; }
+  @media (min-width: 768px) {
+    #chart {
+      position: absolute;
+      top: 36%;
+      left: 2%; } }
 
 .chart-container {
   position: relative;
   max-width: 80%;
   padding: 110px 20px; }
-  @media (min-width: 1280px) {
+  @media (min-width: 768px) {
     .chart-container {
       max-width: 100%; } }
 
 .chart-section {
   width: 310px;
+  height: 510px;
   margin-top: 67px;
+  margin-right: auto;
+  margin-left: auto;
   box-shadow: -2px 5px 16px 1px rgba(0, 0, 0, 0.29);
   background-color: #ffffff; }
+  @media (min-width: 768px) {
+    .chart-section {
+      width: 410px; } }
   @media (min-width: 1280px) {
     .chart-section {
-      width: 680px; } }
+      width: 680px;
+      height: 640px; } }
 
 .chart-choosing {
   margin-top: 65px;
@@ -266,7 +279,9 @@ main {
   width: 310px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto; }
   @media (min-width: 1280px) {
     .interface-section {
       margin-right: 50px;
@@ -343,7 +358,7 @@ main {
       padding: 18px 17px 18px 55px; } }
 
 .pdf-icon {
-  background-image: url("/src/svg/pdf-file.svg");
+  background: url("/src/svg/pdf-file.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 32px;
@@ -384,6 +399,7 @@ td, th {
   max-width: 110px; }
   @media (min-width: 1280px) {
     td, th {
+      font-size: 16px;
       padding: 6px 8px;
       min-width: 213px;
       max-width: 213px; } }

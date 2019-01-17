@@ -1,9 +1,12 @@
 .container {
   padding: 0 5px 0;
-  @media (min-width: 1280px) {
+  @media (min-width: 768px) {
     padding: 0;
+    width: 750px;
+    margin: 0 auto 50px;
+  }
+  @media (min-width: 1280px) {
     width: 1250px;
-    margin: 0 auto;
   }
 }
 
@@ -16,8 +19,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 80px;
-  @media (min-width: 1280px) {
+  @media (min-width: 768px) {
     flex-direction: row;
   }
 }

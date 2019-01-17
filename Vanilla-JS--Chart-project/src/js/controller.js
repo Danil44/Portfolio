@@ -1,4 +1,5 @@
 import EventEmitter from "../services/event-emitter";
+import introJs from "intro.js";
 
 export default class Controller extends EventEmitter {
   constructor(model, view) {
@@ -11,9 +12,11 @@ export default class Controller extends EventEmitter {
     view.on("save", this.savePDF.bind(this));
     view.on("edit", this.changeColor.bind(this));
     model.on("open", this.openPalette.bind(this));
+
     view.createColorPalette();
     view.addEventListeners();
-    view.startIntro();
+    this.startIntro(view, model);
+
     // model.applyConfigsFromStorage();
   }
 
@@ -26,11 +29,38 @@ export default class Controller extends EventEmitter {
     this.model.savePDF(chartImg);
   }
 
+  changeColor(color) {
+    this.model.changeColor(color);
+  }
+
   openPalette() {
     this.view.openPalette();
   }
 
-  changeColor(color) {
-    this.model.changeColor(color);
+  startIntro(view, model) {
+    const doneTour = localStorage.getItem("doneTour");
+    if (doneTour) return;
+    
+    const myIntro = introJs();
+    myIntro
+      .onchange(function(targetElement) {
+        switch (targetElement.dataset.step) {
+          case "6":
+            view.openPalette();
+            break;
+          case "9":
+            model.createChart();
+            break;
+        }
+      })
+      .start();
+    myIntro.oncomplete(function() {
+      view.openPalette();
+      model.destroyChart();
+      localStorage.setItem("doneTour", "doneTour");
+    });
+    myIntro.onexit(function() {
+      localStorage.setItem("doneTour", "doneTour");
+    });
   }
 }
