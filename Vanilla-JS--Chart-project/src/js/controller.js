@@ -40,7 +40,7 @@ export default class Controller extends EventEmitter {
   startIntro(view, model) {
     const doneTour = localStorage.getItem("doneTour");
     if (doneTour) return;
-    
+
     const myIntro = introJs();
     myIntro
       .onchange(function(targetElement) {
@@ -49,13 +49,14 @@ export default class Controller extends EventEmitter {
             view.openPalette();
             break;
           case "9":
-            model.createChart();
+            model.showChartExemple();
             break;
         }
       })
       .start();
     myIntro.oncomplete(function() {
       view.openPalette();
+      model.clearChart();
       model.destroyChart();
       localStorage.setItem("doneTour", "doneTour");
     });

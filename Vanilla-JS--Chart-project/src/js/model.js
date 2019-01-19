@@ -39,15 +39,11 @@ export default class Model extends EventEmitter {
         datasets: [
           {
             label: "# of Votes",
-            backgroundColor: [
-              "rgba(237, 28, 36, 1)",
-              "rgba(255, 242, 0, 1)",
-              "rgba(0, 166, 81, 1)"
-            ],
+            backgroundColor: [],
             hoverBackgroundColor: [],
             hoverBorderColor: [],
             borderColor: "#ffffff",
-            data: [10, 15, 35],
+            data: [],
             borderWidth: 1,
             fill: false
           }
@@ -192,6 +188,23 @@ export default class Model extends EventEmitter {
     this.chart.destroy();
   }
 
+  clearChart() {
+    this.chart.data.datasets[0].backgroundColor = [];
+    this.chart.data.datasets[0].data = [];
+    console.log("ok");
+    console.log(this.chart.data.datasets[0].backgroundColor);
+  }
+
+  showChartExemple() {
+    this.createChart();
+    this.chart.data.datasets[0].backgroundColor = [
+      "rgba(237, 28, 36, 1)",
+      "rgba(255, 242, 0, 1)",
+      "rgba(0, 166, 81, 1)"
+    ];
+    this.chart.data.datasets[0].data = [10, 15, 35];
+    this.chart.update();
+  }
   // showTableFromStorage(labels, numbers) {
   //   const labelsCell = Array.from(document.querySelectorAll('[t="s"]'));
   //   const numbersCell = Array.from(document.querySelectorAll('[t="n"]'));
