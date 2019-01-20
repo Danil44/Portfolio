@@ -12,23 +12,27 @@
 
 .chart-container {
   position: relative;
-  max-width: 80%;
-  padding: 110px 20px;
+  width: 100%;
+  min-height: 165px;
   @media (min-width: 768px) {
-    max-width: 100%;
+    padding: 110px 20px;
   }
 }
 
 .chart-section {
+  order: 1;
   width: 310px;
-  height: 510px;
-  margin-top: 67px;
+  height: 200px;
+  margin-top: 30px;
   margin-right: auto;
   margin-left: auto;
   box-shadow: -2px 5px 16px 1px rgba(0, 0, 0, 0.29);
   background-color: $primary-light-color;
   @media (min-width: 768px) {
+    order: 2;
     width: 410px;
+    height: 510px;
+    margin-top: 67px;
   }
   @media (min-width: 1280px) {
     width: 680px;

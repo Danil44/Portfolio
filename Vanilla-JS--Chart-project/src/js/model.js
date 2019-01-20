@@ -26,7 +26,7 @@ export default class Model extends EventEmitter {
     );
   }
 
-  createChart(type = "pie", color) {
+  createChart(type = "pie") {
     if (this.chart !== undefined) {
       this.chart.destroy();
     }
@@ -51,16 +51,33 @@ export default class Model extends EventEmitter {
       },
       plugins: [ChartDataLabels],
       options: {
+        responsive: false,
         legend: {
+          display: true,
           position: "right",
           labels: {
-            fontSize: 14
+            font: function(context) {
+              var width = context.chart.width;
+              var size = Math.round(width / 32);
+              return {
+                size: size,
+                weight: 600
+              };
+            },
+            boxWidth: 14
           }
         },
         plugins: {
           datalabels: {
             color: "#ffffff",
-            fontSize: 40
+            font: function(context) {
+              var width = context.chart.width;
+              var size = Math.round(width / 32);
+              return {
+                size: size,
+                weight: 600
+              };
+            }
           }
         },
         scales: {}
@@ -156,10 +173,6 @@ export default class Model extends EventEmitter {
     doc.save("chart.pdf");
   }
 
-  getChartElement(evt) {
-    return this.chart.getElementAtEvent(evt);
-  }
-
   handleOpenPalette(evt) {
     evt.preventDefault();
     this.emit("open");
@@ -176,8 +189,9 @@ export default class Model extends EventEmitter {
     this.chart.data.datasets[0].backgroundColor[index] = color;
     this.chart.data.datasets[0].hoverBackgroundColor[index] = color;
 
-    this.chart.update();
+    this.chartElement = null; // Reseting choosed chart part to null
 
+    this.chart.update();
     // //  setting new color to storage
     // const colorInStorage = this.configs[3];
     // colorInStorage[index] = color;

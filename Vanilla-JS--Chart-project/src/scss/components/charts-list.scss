@@ -1,14 +1,18 @@
 .chart-choosing {
-  margin-top: 65px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
+  @media (min-width: 1280px) {
+    width: 610px;
+    margin-top: 65px;
+  }
 }
 
 .charts-list {
   width: 300px;
   display: flex;
   justify-content: center;
-  @media(min-width:1280px){
+  @media (min-width: 1280px) {
     width: 610px;
   }
 }

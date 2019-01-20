@@ -1,10 +1,14 @@
 .interface-section {
+  order: 2;
   width: 310px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
+  @media (min-width: 768px) {
+    order: 1;
+  }
   @media (min-width: 1280px) {
     margin-right: 50px;
     width: 518px;
@@ -23,12 +27,13 @@
 
 .user-interface {
   position: relative;
-  margin-top: 40px;
+  margin-top: 30px;
   background-color: $primary-light-color;
   box-shadow: -7px 6px 24px -5px rgba(0, 0, 0, 0.29);
   margin-bottom: 30px;
   @media (min-width: 1280px) {
     min-height: 510px;
+    margin-top: 40px;
   }
 }
 
@@ -86,6 +91,7 @@
   border-radius: 8px;
   padding: 12px 10px 13px 53px;
   cursor: pointer;
+  margin-bottom: 30px;
   @media (min-width: 1280px) {
     padding: 18px 17px 18px 55px;
   }
