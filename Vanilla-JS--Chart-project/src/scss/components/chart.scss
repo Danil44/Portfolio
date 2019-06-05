@@ -1,21 +1,15 @@
 #chart {
-  position: absolute;
-  top: 15%;
-  left: 2%;
-
-  @media (min-width: 768px) {
-    position: absolute;
-    top: 36%;
-    left: 2%;
-  }
+  width: 80%;
 }
 
 .chart-container {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   min-height: 165px;
   @media (min-width: 768px) {
-    padding: 110px 20px;
   }
 }
 
@@ -23,6 +17,9 @@
   order: 1;
   width: 310px;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 30px;
   margin-right: auto;
   margin-left: auto;

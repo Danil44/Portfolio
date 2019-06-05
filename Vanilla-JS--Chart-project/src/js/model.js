@@ -31,6 +31,7 @@ export default class Model extends EventEmitter {
       this.chart.destroy();
     }
     Chart.defaults.global.plugins.datalabels.font.size = 20;
+    const colors = this.colors;
 
     this.chart = new Chart(this.chartContainer, {
       type: `${type}`,
@@ -39,33 +40,23 @@ export default class Model extends EventEmitter {
         datasets: [
           {
             label: "# of Votes",
-            backgroundColor: [],
-            hoverBackgroundColor: [],
-            hoverBorderColor: [],
-            borderColor: "#ffffff",
+            backgroundColor: colors,
+            hoverBackgroundColor: colors,
+            hoverBorderColor: colors,
+            borderColor: colors,
             data: [],
-            borderWidth: 1,
-            fill: false
+            borderWidth: 2,
+            fill: false,
+            showLine: true
           }
         ]
       },
       plugins: [ChartDataLabels],
       options: {
-        responsive: false,
+        responsive: true,
         legend: {
           display: true,
-          position: "right",
-          labels: {
-            font: function(context) {
-              var width = context.chart.width;
-              var size = Math.round(width / 32);
-              return {
-                size: size,
-                weight: 600
-              };
-            },
-            boxWidth: 14
-          }
+          position: "right"
         },
         plugins: {
           datalabels: {
@@ -105,11 +96,6 @@ export default class Model extends EventEmitter {
     }
 
     this.colors.push(color);
-    this.colors.forEach(color => {
-      this.chart.data.datasets[0].backgroundColor.push(color);
-
-      this.chart.data.datasets[0].hoverBackgroundColor.push(color);
-    });
 
     if (
       this.chart.config.type !== "pie" &&
@@ -128,13 +114,6 @@ export default class Model extends EventEmitter {
         ]
       };
     }
-    // this.setConfigsToStorage(
-    //   this.chart.config.type,
-    //   this.chart.data.labels,
-    //   this.chart.data.datasets[0].data,
-    //   this.chart.data.datasets[0].backgroundColor
-    // );
-
     this.chart.update();
   }
 
@@ -192,10 +171,6 @@ export default class Model extends EventEmitter {
     this.chartElement = null; // Reseting choosed chart part to null
 
     this.chart.update();
-    // //  setting new color to storage
-    // const colorInStorage = this.configs[3];
-    // colorInStorage[index] = color;
-    // storage.set(this.configs);
   }
 
   destroyChart() {
@@ -205,8 +180,6 @@ export default class Model extends EventEmitter {
   clearChart() {
     this.chart.data.datasets[0].backgroundColor = [];
     this.chart.data.datasets[0].data = [];
-    console.log("ok");
-    console.log(this.chart.data.datasets[0].backgroundColor);
   }
 
   showChartExemple() {
@@ -219,43 +192,4 @@ export default class Model extends EventEmitter {
     this.chart.data.datasets[0].data = [10, 15, 35];
     this.chart.update();
   }
-  // showTableFromStorage(labels, numbers) {
-  //   const labelsCell = Array.from(document.querySelectorAll('[t="s"]'));
-  //   const numbersCell = Array.from(document.querySelectorAll('[t="n"]'));
-  //   labels.forEach(label => {
-  //     labelsCell.forEach(cell => cell.textContent = label)
-  //   })
-  // }
-
-  // setConfigsToStorage(type, labels, numbers, colors) {
-  //   this.configs[0] = type;
-  //   this.configs[1] = labels;
-  //   this.configs[2] = numbers;
-  //   this.configs[3] = colors;
-
-  //   storage.set(this.configs);
-  // }
-
-  // applyConfigsFromStorage() {
-  //   storage.get() ? (this.configs = storage.get()) : [];
-  //   const type = this.configs[0];
-  //   const labels = this.configs[1];
-  //   const numbers = this.configs[2];
-  //   const colors = this.configs[3];
-
-  //   this.createChart(type, labels, numbers, colors);
-
-  //   if (this.configs.length === 0) return;
-
-  //   this.chart.config.type = type;
-  //   labels.forEach(label => this.chart.data.labels.push(label));
-  //   numbers.forEach(number => this.chart.data.datasets[0].data.push(number));
-  //   colors.forEach(color => {
-  //     this.chart.data.datasets[0].backgroundColor.push(color);
-  //     this.chart.data.datasets[0].hoverBackgroundColor.push(color);
-  //   });
-
-  //   // this.showTableFromStorage(labels, numbers);
-  //   this.chart.update();
-  // }
 }
