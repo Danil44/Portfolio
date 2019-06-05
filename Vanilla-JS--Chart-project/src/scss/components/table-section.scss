@@ -2,14 +2,29 @@
   padding-bottom: 15px;
 }
 
+tr {
+  border: 1px solid #acacac;
+}
+
 table {
   max-width: 460px;
 }
 
+textarea {
+  resize: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  &:focus {
+    outline: none;
+  }
+}
+
 td {
-  border: 2px solid rgba(0, 0, 0, 0.15);
   padding: 3px 1px;
   font-size: 12px;
+  border-right: 1px solid #acacac;
   min-width: 110px;
   max-width: 110px;
   @media (min-width: 1280px) {
@@ -22,7 +37,6 @@ td {
 
 th {
   @extend td;
-  border: 3px solid rgba(0, 0, 0, 0.19);
   font-size: 16px;
   height: 16px;
   color: $table-titles-color;
@@ -45,4 +59,3 @@ td:focus {
   right: 6%;
   cursor: pointer;
 }
-
