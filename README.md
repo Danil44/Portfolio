@@ -1,6 +1,3 @@
-## My Portfolio / or what I learned and what I used while HTML/CSS and JavaScript course
-=================================================================================
-
 ### HTML/CSS
 ----------------------------------------------------------------------------------------
 1.[Group project](https://danil44.github.io/Go-IT-FE-Course--/EV-website-project/build/home-page.html)
