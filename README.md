@@ -9,6 +9,10 @@
 3. [SPA web-page (React Router)](https://danil44.github.io/goit-react-hw-04-pet-store/#/)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-04-pet-store)
 
+### NodeJS (Express / MongoDB) 
+----------------------------------------------------------------------------------------
+[Food delivery server](https://github.com/Danil44/food-delivery-server-goit)
+
 ### Vanilla JS (ES6)
 ----------------------------------------------------------------------------------------
 1. [Chart project (ES6, WebPack, MVC patterns)](https://danil44.github.io/Go-IT-FE-Course--/Vanilla-JS--Chart-project/build/index.html)
