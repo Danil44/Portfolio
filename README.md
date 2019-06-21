@@ -1,3 +1,9 @@
+### Comercial projects
+---------------------------------------------------------------------------------------
+1. [Swiss Kids (Medpack Swiss Group)](http://swiss-kids.dev.itcg.ua/#main)
+2. [Swiss Energy (Medpack Swiss Group)](http://swiss-energy.dev.itcg.ua/)
+3. [ITCG Audit (Internet Advertising Agency)](http://audit.itcg.ua/)
+
 ### React/Redux
 ----------------------------------------------------------------------------------------
 1. [Budget planner (Redux)](https://danil44.github.io/goit-react-hw-05-budget-planner/)
