@@ -1,0 +1,86 @@
+.repos-search {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 80px 35px;
+  grid-gap: 15px;
+  grid-auto-flow: row;
+
+  &__name-field {
+    display: flex;
+    justify-content: space-between;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0.5vw;
+
+    & > input {
+      border: none;
+      align-self: center;
+      width: 100%;
+      height: 50%;
+      border-bottom: 1px solid #acacac;
+      font-size: 18px;
+      padding: 8px;
+    }
+
+    & > button {
+      height: 50%;
+      padding: 0 25px;
+      align-self: center;
+      color: #fff;
+      background-color: #3d3d3d;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  &__type-filter {
+    grid-gap: 0.5vw;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    display: flex;
+
+    & > span {
+      text-align: center;
+      align-self: center;
+      color: #3d3d3d;
+      font-size: 25px;
+      margin-right: 20px;
+    }
+
+    & > select {
+      display: inline-block;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      height: 100%;
+      font-family: "Open Sans";
+      color: #fff;
+      background-color: #3d3d3d;
+      cursor: pointer;
+    }
+  }
+
+  &__sort {
+    @extend .repos-search__type-filter;
+    grid-column: 3/6;
+
+    & > select {
+      margin-right: 20px;
+    }
+
+    & > .sort-btn {
+      width: 40px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      border-radius: 5px;
+      padding: 0.2em;
+      transition: 0.1s linear;
+
+      &:hover {
+        border-color: #3d3d3da9;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./scss/styles.scss" />
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section class="repos-search js-repo-search-container">
+            <form action="GET" class="repos-search__name-field js-search-form"><input type="text" name="name"><button
+                    type="submit">Search</button>
+            </form>
+            <form action="GET" class="repos-search__type-filter js-repo-type-filter">
+                <span>Filter</span>
+                <select name="type">
+                    <option value="all" selected>All</option>
+                    <option value="forks">Forks</option>
+                </select>
+            </form>
+            <form action="GET" class="repos-search__sort js-repo-sort">
+                <span>Sort by</span>
+                <select name="type">
+                    <option value="name" selected>Repository name</option>
+                    <option value="stars">Stars count</option>
+                </select>
+                <img class="sort-btn js-sort-btn" src="./img/sort.svg" alt="sort-btn">
+            </form>
+            <section class="search-result">
+                <ul class="search-result__list js-search-result">
+                    <!-- Will be compiled with Handlebars -->
+                </ul>
+                <button type="button" class="hidden search-result__pagination-btn js-repos-pagination">Load
+                    more</button>
+            </section>
+        </section>
+        <include src='./src/templates/repos-card.html'></include>
+
+    </main>
+    <script src="./js/index.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="stylesheet" href="styles.4aaade5c.css"><title>Document</title></head><body> <main> <section class="repos-search js-repo-search-container"> <form action="GET" class="repos-search__name-field js-search-form"><input type="text" name="name"><button type="submit">Search</button> </form> <form action="GET" class="repos-search__type-filter js-repo-type-filter"> <span>Filter</span> <select name="type"> <option value="all" selected>All</option> <option value="forks">Forks</option> </select> </form> <form action="GET" class="repos-search__sort js-repo-sort"> <span>Sort by</span> <select name="type"> <option value="name" selected>Repository name</option> <option value="stars">Stars count</option> </select> <img class="sort-btn js-sort-btn" src="sort.bf883725.svg" alt="sort-btn"> </form> <section class="search-result"> <ul class="search-result__list js-search-result">  </ul> <button type="button" class="hidden search-result__pagination-btn js-repos-pagination">Load more</button> </section> </section> <script type="hbs/template" id="searched-repos-item">
+    <li class="search-result__item">
+        <h3><a target="_blank" href={{{ownerUrl}}}>{{owner}}</a> / <a target="_blank" href={{{repoUrl}}}>{{name}}</a></h3>
+        {{#if fork}}
+        <span>fork</span>
+        {{/if}}
+        {{#if description}}
+        <p class="search-result__desc">{{description}}</p>
+        {{/if}}
+        <ul>
+            {{#if language}}
+            <li>{{language}}</li>
+            {{/if}}
+            <li datetime={{originalDate}}>Updated {{updatedDate}}</li>
+            {{#if stars}}
+            <li datetime={{originalDate}}>Stars {{stars}}</li>
+            {{/if}}
+        </ul>
+    </li>
+</script> </main> <script src="js.85b84631.js">
+    </script>
+</body></html>

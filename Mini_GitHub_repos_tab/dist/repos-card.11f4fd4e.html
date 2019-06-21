@@ -1,0 +1,20 @@
+<script type="hbs/template" id="searched-repos-item">
+    <li class="search-result__item">
+        <h3><a target="_blank" href={{{ownerUrl}}}>{{owner}}</a> / <a target="_blank" href={{{repoUrl}}}>{{name}}</a></h3>
+        {{#if fork}}
+        <span>fork</span>
+        {{/if}}
+        {{#if description}}
+        <p class="search-result__desc">{{description}}</p>
+        {{/if}}
+        <ul>
+            {{#if language}}
+            <li>{{language}}</li>
+            {{/if}}
+            <li datetime={{originalDate}}>Updated {{updatedDate}}</li>
+            {{#if stars}}
+            <li datetime={{originalDate}}>Stars {{stars}}</li>
+            {{/if}}
+        </ul>
+    </li>
+</script>
