@@ -1,16 +1,16 @@
-### Comercial projects
+## Comercial projects
 ---------------------------------------------------------------------------------------
-# Standalone created
+### Standalone created
 1. [Swiss Kids (Medpack Swiss Group)](http://swiss-kids.dev.itcg.ua/#main)
 2. [Swiss Energy (Medpack Swiss Group)](http://swiss-energy.dev.itcg.ua/)
 3. [ITCG Audit (Internet Advertising Agency)](http://audit.itcg.ua/)
 
-# Supporting projects
+### Supporting projects
 1. [Glutennoff/Milkoff/Saharoff](https://glutenoff.dev.itcg.ua/)
 2. [Promo Sadochok](https://promo.sadochok.ua/)
 3. [Lays Movie Promo](http://lays-movie.dev.itcg.ua/)
 
-### React/Redux
+## React/Redux
 ----------------------------------------------------------------------------------------
 1. [Budget planner (Redux)](https://danil44.github.io/goit-react-hw-05-budget-planner/)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-05-budget-planner)
@@ -21,11 +21,11 @@
 3. [SPA web-page (React Router)](https://danil44.github.io/goit-react-hw-04-pet-store/#/)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-04-pet-store)
 
-### NodeJS (Express / MongoDB) 
+## NodeJS (Express / MongoDB) 
 ----------------------------------------------------------------------------------------
 [Food delivery server](https://github.com/Danil44/food-delivery-server-goit)
 
-### Vanilla JS (ES6)
+## Vanilla JS (ES6)
 ----------------------------------------------------------------------------------------
 1. [Chart project (ES6, WebPack, MVC patterns)](https://danil44.github.io/Go-IT-FE-Course--/Vanilla-JS--Chart-project/build/index.html)
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/Vanilla-JS--Chart-project)
@@ -42,7 +42,7 @@
 5. [Filtering list of products (Handlebars)](https://danil44.github.io/Go-IT-FE-Course--/JS-FE-Advenced-GoIT/module-11/index.html)
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/JS-FE-Advenced-GoIT/module-11)
 
-### HTML/CSS
+## HTML/CSS
 ----------------------------------------------------------------------------------------
 1. [Group project](https://danil44.github.io/Go-IT-FE-Course--/EV-website-project/build/home-page.html)
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/EV-website-project)
