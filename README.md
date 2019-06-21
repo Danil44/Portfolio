@@ -6,7 +6,7 @@
 2. [Reader (React Router)](https://danil44.github.io/goit-react-hw-04-reader/#/reader?item=1)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-04-reader)
 
-3. [SPA web-page (React Router)] (https://danil44.github.io/goit-react-hw-04-pet-store/#/)
+3. [SPA web-page (React Router)](https://danil44.github.io/goit-react-hw-04-pet-store/#/)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-04-pet-store)
 
 ### Vanilla JS (ES6)
