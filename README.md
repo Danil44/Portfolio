@@ -11,13 +11,16 @@
 3. [Lays Movie Promo](http://lays-movie.dev.itcg.ua/)
 
 ## React/Redux
-1. [Budget planner (Redux)](https://danil44.github.io/goit-react-hw-05-budget-planner/)
+1. [SPA news webpage (Redux-router, redux-thunk, material-ui)](https://danil44.github.io/NewYorkTimes_React_project/#/) / In proccess...
+[[Code folder]](https://github.com/Danil44/NewYorkTimes_React_project)
+
+2. [Budget planner (Redux)](https://danil44.github.io/goit-react-hw-05-budget-planner/)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-05-budget-planner)
 
-2. [Reader (React Router)](https://danil44.github.io/goit-react-hw-04-reader/#/reader?item=1)
+3. [Reader (React Router)](https://danil44.github.io/goit-react-hw-04-reader/#/reader?item=1)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-04-reader)
 
-3. [SPA web-page (React Router)](https://danil44.github.io/goit-react-hw-04-pet-store/#/)
+4. [SPA webpage (React Router)](https://danil44.github.io/goit-react-hw-04-pet-store/#/)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-04-pet-store)
 
 ## NodeJS (Express / MongoDB) 
