@@ -11,8 +11,8 @@
 3. [Lays Movie Promo](http://lays-movie.dev.itcg.ua/)
 
 ## React/Redux
-1. [SPA news webpage (Redux-router, redux-thunk, material-ui)](https://danil44.github.io/NewYorkTimes_React_project/#/) / In proccess...
-[[Code folder]](https://github.com/Danil44/NewYorkTimes_React_project)
+1. [SPA news webpage (Redux-router, redux-thunk, material-ui)](https://danil44.github.io/NewYorkTimes_React_project/#/)
+[[Code folder]](https://github.com/Danil44/NewYorkTimes_React_project) / In proccess...
 
 2. [Budget planner (Redux)](https://danil44.github.io/goit-react-hw-05-budget-planner/)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-05-budget-planner)
