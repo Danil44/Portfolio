@@ -12,7 +12,10 @@
 
 ## React/Redux
 1. [SPA news webpage (React-router, redux-saga, material-ui)](https://danil44.github.io/NewYorkTimes_React_project/#/)
-[[Code folder]](https://github.com/Danil44/NewYorkTimes_React_project) / Working on more features...
+[[Code folder]](https://github.com/Danil44/NewYorkTimes_React_project)
+
+2. [Test-task: MEARN app ()Redux, Saga, Twitter api](https://twitter-timelines.herokuapp.com/#/)
+[[Code folder]](https://github.com/Danil44/twitter-timelines)
 
 2. [Budget planner (Redux)](https://danil44.github.io/goit-react-hw-05-budget-planner/)
 [[Code folder]](https://github.com/Danil44/goit-react-hw-05-budget-planner)
