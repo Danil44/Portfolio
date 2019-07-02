@@ -36,11 +36,8 @@
 2. [Mini GitHub repositories tab with filtering and sorting (AJAX, ES6, MVC pattern, Handlebars, Parcel bundler)](https://danil44.github.io/Mini_GitHub_repos_tab/dist/index.html)
 [[Code folder]](https://github.com/Danil44/Mini_GitHub_repos_tab/tree/master/src)
 
-3. [Application with adaptive page to store notes in localstorage (Webpack & AJAX)](https://danil44.github.io/JavaScript-FE-Advanced-GoIT--/module-12/build/index.html) 
-[[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/JS-FE-Advenced-GoIT/module-12)
-
-4. [Application with adaptive page to store notes in localstorage (WebPack, MVC patterns & AJAX)](https://danil44.github.io/Go-IT-FE-Course--/JS-FE-Advenced-GoIT/module-13/build/index.html)
+3. [Application with adaptive page to store notes in localstorage (WebPack, MVC patterns & AJAX)](https://danil44.github.io/JavaScript-FE-Advanced-GoIT--/module-12/build/index.html)
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/JS-FE-Advenced-GoIT/module-13)
 
-5. [Filtering list of products (Handlebars)](https://danil44.github.io/Go-IT-FE-Course--/JS-FE-Advenced-GoIT/module-11/index.html)
+4. [Filtering list of products (Handlebars)](https://danil44.github.io/Go-IT-FE-Course--/JS-FE-Advenced-GoIT/module-11/index.html)
 [[Code folder]](https://github.com/Danil44/Go-IT-FE-Course--/tree/master/JS-FE-Advenced-GoIT/module-11)
