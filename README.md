@@ -1,7 +1,7 @@
 ## Comercial projects
 
 #### Standalone created
-1. [Swiss Kids (Medpack Swiss Group)](http://swiss-kids.dev.itcg.ua/#main)
+1. [Swiss Kids (Medpack Swiss Group)](https://danil44.github.io/swiss_kids/dist/index.html)
 2. [Swiss Energy (Medpack Swiss Group)](http://swiss-energy.dev.itcg.ua/)
 3. [ITCG Audit (Internet Advertising Agency)](http://audit.itcg.ua/)
 
