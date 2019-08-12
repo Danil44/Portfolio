@@ -1,14 +1,12 @@
 ## Comercial projects
 
-#### Standalone created
+#### Standalone created / #### Supporting projects
 1. [Swiss Kids (Medpack Swiss Group)](https://danil44.github.io/swiss_kids/dist/index.html)
 2. [Swiss Energy (Medpack Swiss Group)](https://danil44.github.io/swiss_energy/)
 3. [ITCG Audit (Internet Advertising Agency)](http://audit.itcg.ua/)
-
-#### Supporting projects
-1. [Glutennoff/Milkoff/Saharoff](https://glutenoff.dev.itcg.ua/)
-2. [Promo Sadochok](https://promo.sadochok.ua/)
-3. [Lays Movie Promo](http://lays-movie.dev.itcg.ua/)
+4. [Glutennoff/Milkoff/Saharoff](https://glutenoff.dev.itcg.ua/)
+5. [Promo Sadochok](https://promo.sadochok.ua/)
+6. [Lays Movie Promo](http://lays-movie.dev.itcg.ua/)
 
 ## React/Redux
 1. [SPA news webpage (React-router, redux-saga, material-ui)](https://danil44.github.io/NewYorkTimes_React_project/#/)
