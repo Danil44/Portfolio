@@ -35,7 +35,7 @@
     "chart.js": "^2.7.3",
     "codemirror": "^5.42.2",
     "codemirror-colorpicker": "^1.9.49",
-    "handlebars": "^4.0.12",
+    "handlebars": "^4.4.5",
     "handlebars-loader": "^1.7.0",
     "html2canvas": "^1.0.0-alpha.12",
     "html2pdf.js": "^0.9.1",
