@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "handlebars": "^4.0.12",
     "handlebars-loader": "^1.7.0",
     "sass-resources-loader": "^2.0.0"
