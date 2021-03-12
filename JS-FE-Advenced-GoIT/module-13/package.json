@@ -39,7 +39,7 @@
     "handlebars-loader": "^1.7.0",
     "html2canvas": "^1.0.0-alpha.12",
     "html2pdf.js": "^0.9.1",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "sass-resources-loader": "^2.0.0",
     "uuid": "^3.3.2",
     "xlsx": "^0.14.1"
