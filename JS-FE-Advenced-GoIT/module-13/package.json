@@ -33,7 +33,7 @@
     "@babel/polyfill": "^7.0.0",
     "axios": "^0.18.0",
     "chart.js": "^2.7.3",
-    "codemirror": "^5.42.2",
+    "codemirror": "^5.58.2",
     "codemirror-colorpicker": "^1.9.49",
     "handlebars": "^4.0.12",
     "handlebars-loader": "^1.7.0",
